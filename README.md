@@ -1,0 +1,2 @@
+# lio-sam_simulation_navigation
+本项目在仿真环境中使用lio_sam算法进行定位，从而使用navigation进行机器人导航。
