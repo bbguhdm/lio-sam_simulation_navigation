@@ -1,0 +1,71 @@
+[  2%] Built target lio_sam__cpp
+[  2%] Built target ament_cmake_python_copy_lio_sam
+[ 10%] Built target lio_sam__rosidl_generator_c
+[ 19%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 27%] Built target lio_sam__rosidl_typesupport_cpp
+[ 36%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 53%] Built target lio_sam__rosidl_typesupport_introspection_c
+[ 61%] Built target lio_sam__rosidl_typesupport_c
+[ 61%] Built target lio_sam
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[ 63%] Built target lio_sam__py
+[ 70%] Built target lio_sam__rosidl_generator_py
+[ 74%] Built target lio_sam_mapOptimization
+[ 78%] Built target lio_sam_imuPreintegration
+[ 82%] Built target lio_sam_featureExtraction
+[ 85%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[ 93%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target lio_sam__rosidl_typesupport_c__pyext
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_lio_sam_egg
+In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:[m[K In member function ‘[01m[Kbool ImageProjection::cachePointCloud(const SharedPtr&)[m[K’:
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:311:69:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Ksensor_msgs::msg::PointField_<std::allocator<void> >::_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+  311 |                 RCLCPP_ERROR(get_logger(),currentCloudMsg.fields[i].name);
+In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+  479 |   [01;36m[Kconst char * format[m[K,
+      |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76：CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:628：CMakeFiles/lio_sam_imageProjection.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

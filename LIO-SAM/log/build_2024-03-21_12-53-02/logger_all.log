@@ -1,0 +1,112 @@
+[0.433s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.433s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x776dc2a30910>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x776dc2a33220>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x776dc2a33220>>)
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.455s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.455s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hdm/LIO-SAM'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.455s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.456s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.463s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'lio_sam'
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.464s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.505s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.518s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 1 installed packages in /home/hdm/LIO-SAM/install
+[0.525s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 393 installed packages in /opt/ros/humble
+[0.526s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_clean_first' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'cmake_force_configure' from command line to 'False'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'ament_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.582s] Level 5:colcon.colcon_core.verb:set package 'lio_sam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.582s] DEBUG:colcon.colcon_core.verb:Building package 'lio_sam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hdm/LIO-SAM/build/lio_sam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hdm/LIO-SAM/install/lio_sam', 'merge_install': False, 'path': '/home/hdm/LIO-SAM', 'symlink_install': False, 'test_result_base': None}
+[0.589s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.596s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.596s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hdm/LIO-SAM' with build type 'ament_cmake'
+[0.596s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hdm/LIO-SAM'
+[0.604s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.604s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.604s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.632s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[16.633s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[16.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/LIO-SAM/build/lio_sam
+[16.800s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[16.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/LIO-SAM/build/lio_sam
+[16.824s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam' for CMake module files
+[16.825s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam' for CMake config files
+[16.825s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[16.846s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[16.847s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[16.847s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[16.849s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/lib'
+[16.849s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[16.868s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[16.869s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[16.869s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[16.870s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/bin'
+[16.870s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[16.870s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/lib/python3.10/site-packages'
+[16.870s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/bin'
+[16.887s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.ps1'
+[16.889s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.dsv'
+[16.889s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.sh'
+[16.890s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.bash'
+[16.891s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.zsh'
+[16.892s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hdm/LIO-SAM/install/lio_sam/share/colcon-core/packages/lio_sam)
+[17.050s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lio_sam)
+[17.068s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam' for CMake module files
+[17.069s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam' for CMake config files
+[17.069s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'cmake_prefix_path')
+[17.087s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.ps1'
+[17.088s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.dsv'
+[17.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/cmake_prefix_path.sh'
+[17.089s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/lib'
+[17.089s] Level 1:colcon.colcon_core.shell:create_environment_hook('lio_sam', 'ld_library_path_lib')
+[17.107s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.ps1'
+[17.108s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.dsv'
+[17.108s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/hook/ld_library_path_lib.sh'
+[17.108s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/bin'
+[17.108s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/lib/pkgconfig/lio_sam.pc'
+[17.109s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/lib/python3.10/site-packages'
+[17.109s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/LIO-SAM/install/lio_sam/bin'
+[17.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.ps1'
+[17.125s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.dsv'
+[17.125s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.sh'
+[17.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.bash'
+[17.126s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/LIO-SAM/install/lio_sam/share/lio_sam/package.zsh'
+[17.126s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hdm/LIO-SAM/install/lio_sam/share/colcon-core/packages/lio_sam)
+[17.126s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[17.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[17.127s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[17.127s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[17.154s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[17.155s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[17.155s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[17.185s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[17.192s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/LIO-SAM/install/local_setup.ps1'
+[17.192s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hdm/LIO-SAM/install/_local_setup_util_ps1.py'
+[17.193s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/LIO-SAM/install/setup.ps1'
+[17.199s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/LIO-SAM/install/local_setup.sh'
+[17.200s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hdm/LIO-SAM/install/_local_setup_util_sh.py'
+[17.200s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/LIO-SAM/install/setup.sh'
+[17.207s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/LIO-SAM/install/local_setup.bash'
+[17.207s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/LIO-SAM/install/setup.bash'
+[17.213s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/LIO-SAM/install/local_setup.zsh'
+[17.213s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/LIO-SAM/install/setup.zsh'

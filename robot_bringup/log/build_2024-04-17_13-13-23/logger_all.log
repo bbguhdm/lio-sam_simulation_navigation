@@ -1,0 +1,78 @@
+[0.509s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.509s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=24, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7464e1c72290>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7464e1c71cf0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7464e1c71cf0>>)
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.534s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.534s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hdm/lio-sam_simulation_car/robot_bringup'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.534s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.542s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'point_laser'
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.542s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.590s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.606s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 394 installed packages in /opt/ros/humble
+[0.607s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'cmake_args' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'cmake_target' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'cmake_clean_cache' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'cmake_clean_first' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'cmake_force_configure' from command line to 'False'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'ament_cmake_args' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'catkin_cmake_args' from command line to 'None'
+[0.669s] Level 5:colcon.colcon_core.verb:set package 'point_laser' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.669s] DEBUG:colcon.colcon_core.verb:Building package 'point_laser' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser', 'merge_install': False, 'path': '/home/hdm/lio-sam_simulation_car/robot_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.677s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.685s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hdm/lio-sam_simulation_car/robot_bringup' with build type 'ament_cmake'
+[0.685s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hdm/lio-sam_simulation_car/robot_bringup'
+[0.694s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.694s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.694s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
+[2.215s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
+[2.228s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(point_laser)
+[2.236s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser' for CMake module files
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser' for CMake config files
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/bin'
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/lib/pkgconfig/point_laser.pc'
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/lib/python3.10/site-packages'
+[2.237s] Level 1:colcon.colcon_core.environment:checking '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/bin'
+[2.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.ps1'
+[2.245s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.dsv'
+[2.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.sh'
+[2.245s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.bash'
+[2.246s] INFO:colcon.colcon_core.shell:Creating package script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.zsh'
+[2.246s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/colcon-core/packages/point_laser)
+[2.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.257s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'
+[2.257s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.310s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.310s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.345s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.382s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/local_setup.ps1'
+[2.385s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hdm/lio-sam_simulation_car/robot_bringup/install/_local_setup_util_ps1.py'
+[2.388s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/setup.ps1'
+[2.422s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/local_setup.sh'
+[2.423s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hdm/lio-sam_simulation_car/robot_bringup/install/_local_setup_util_sh.py'
+[2.424s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/setup.sh'
+[2.449s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/local_setup.bash'
+[2.450s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/setup.bash'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/local_setup.zsh'
+[2.470s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hdm/lio-sam_simulation_car/robot_bringup/install/setup.zsh'

@@ -1,0 +1,32 @@
+[0.034s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24
+[0.073s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.258s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.261s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.270s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.282s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.290s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.318s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.319s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.334s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.539s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.546s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.546s] -- Configured cppcheck include dirs: 
+[0.546s] -- Configured cppcheck exclude dirs and/or files: 
+[0.549s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[0.549s] -- Configured cpplint exclude dirs and/or files: 
+[0.549s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.550s] -- Added test 'lint_cmake' to check CMake code style
+[0.551s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.551s] -- Added test 'xmllint' to check XML markup files
+[0.552s] -- Configuring done
+[0.554s] -- Generating done
+[0.555s] -- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup
+[0.602s] [ 50%] [32mBuilding CXX object CMakeFiles/point_deal.dir/src/point_deal.cpp.o[0m
+[0.615s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: 没有那个文件或目录
+[0.616s]     1 | #include [01;31m[K"rclcpp/rclcpp.hpp"[m[K
+[0.616s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[0.616s] compilation terminated.
+[0.617s] gmake[2]: *** [CMakeFiles/point_deal.dir/build.make:76：CMakeFiles/point_deal.dir/src/point_deal.cpp.o] 错误 1
+[0.617s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/point_deal.dir/all] 错误 2
+[0.618s] gmake: *** [Makefile:146：all] 错误 2
+[0.620s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24

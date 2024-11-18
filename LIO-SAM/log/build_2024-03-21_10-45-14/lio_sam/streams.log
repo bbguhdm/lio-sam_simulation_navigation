@@ -1,0 +1,634 @@
+[0.033s] Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[0.097s] [  2%] Built target lio_sam__cpp
+[0.098s] [ 10%] Built target lio_sam__rosidl_generator_c
+[0.109s] [ 19%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.110s] [ 27%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.116s] [ 36%] Built target lio_sam__rosidl_typesupport_c
+[0.118s] [ 36%] Built target ament_cmake_python_copy_lio_sam
+[0.118s] [ 44%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.119s] [ 53%] Built target lio_sam__rosidl_typesupport_cpp
+[0.123s] [ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.141s] [ 61%] Built target lio_sam
+[0.153s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[0.156s] [ 63%] Built target lio_sam__py
+[0.163s] [ 68%] Built target lio_sam_featureExtraction
+[0.166s] [ 72%] Built target lio_sam_mapOptimization
+[0.167s] [ 78%] Built target lio_sam__rosidl_generator_py
+[0.171s] [ 80%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[0.172s] [ 85%] Built target lio_sam_imuPreintegration
+[0.178s] [ 97%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.179s] [ 97%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.179s] [ 97%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.267s] running egg_info
+[0.267s] writing lio_sam.egg-info/PKG-INFO
+[0.267s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.268s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.268s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.269s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.287s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[1.136s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+[1.136s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[1.136s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.136s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[1.136s]       |  [01;35m[K^~~~~~~[m[K
+[1.139s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+[1.139s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[1.139s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.139s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.139s]       |  [01;35m[K^~~~~~~[m[K
+[4.164s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.164s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.164s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.165s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.166s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.167s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.168s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.170s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.171s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.171s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.171s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:[m[K In member function ‘[01m[Kbool ImageProjection::cachePointCloud(const SharedPtr&)[m[K’:
+[4.171s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:311:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%s[m[K’ expects argument of type ‘[01m[Kchar*[m[K’, but argument 5 has type ‘[01m[Ksensor_msgs::msg::PointField_<std::allocator<void> >::_name_type[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[4.172s]   311 |                 RCLCPP_ERROR(get_logger(), [01;35m[K"An error occurred: %s"[m[K,currentCloudMsg.fields[i].name);
+[4.172s]       |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.172s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:311:65:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[4.172s]   311 |                 RCLCPP_ERROR(get_logger(), "An error occurred: [01;36m[K%s[m[K",currentCloudMsg.fields[i].name);
+[4.172s]       |                                                                [01;36m[K~^[m[K
+[4.172s]       |                                                                 [01;36m[K|[m[K
+[4.173s]       |                                                                 [01;36m[Kchar*[m[K
+[4.173s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:41:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator<[m[K’ (operand types are ‘[01m[Kstd::basic_ostream<char>[m[K’ and ‘[01m[K<unresolved overloaded function type>[m[K’)
+[4.173s]   314 |                     [01;31m[Kstd::cout<<"line==1"<std::endl[m[K;
+[4.173s]       |                     [01;31m[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~[m[K
+[4.173s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:64[m[K,
+[4.174s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[4.174s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[4.174s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.174s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.174s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.174s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.174s] [01m[K/usr/include/c++/11/bits/stl_pair.h:489:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _T1, class _T2> constexpr bool std::operator<(const std::pair<_T1, _T2>&, const std::pair<_T1, _T2>&)[m[K’
+[4.175s]   489 |     [01;36m[Koperator[m[K<(const pair<_T1, _T2>& __x, const pair<_T1, _T2>& __y)
+[4.175s]       |     [01;36m[K^~~~~~~~[m[K
+[4.175s] [01m[K/usr/include/c++/11/bits/stl_pair.h:489:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.175s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::pair<_T1, _T2>[m[K’
+[4.175s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.175s]       |                                               [01;36m[K^~~~[m[K
+[4.176s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.176s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.176s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.176s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.176s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:426:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_Iterator>&)[m[K’
+[4.177s]   426 |     [01;36m[Koperator[m[K<(const reverse_iterator<_Iterator>& __x,
+[4.177s]       |     [01;36m[K^~~~~~~~[m[K
+[4.177s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:426:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.177s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[4.177s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.178s]       |                                               [01;36m[K^~~~[m[K
+[4.178s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.178s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.178s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.179s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.179s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:465:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::reverse_iterator<_Iterator>&, const std::reverse_iterator<_IteratorR>&)[m[K’
+[4.179s]   465 |     [01;36m[Koperator[m[K<(const reverse_iterator<_IteratorL>& __x,
+[4.179s]       |     [01;36m[K^~~~~~~~[m[K
+[4.179s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:465:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.180s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::reverse_iterator<_Iterator>[m[K’
+[4.180s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.180s]       |                                               [01;36m[K^~~~[m[K
+[4.180s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[4.180s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[4.180s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[4.180s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.180s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.181s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.181s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.181s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1609:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _IteratorL, class _IteratorR> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorR>&)[m[K’
+[4.181s]  1609 |     [01;36m[Koperator[m[K<(const move_iterator<_IteratorL>& __x,
+[4.181s]       |     [01;36m[K^~~~~~~~[m[K
+[4.182s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1609:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.182s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[4.182s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.182s]       |                                               [01;36m[K^~~~[m[K
+[4.182s] In file included from [01m[K/usr/include/c++/11/bits/stl_algobase.h:67[m[K,
+[4.182s]                  from [01m[K/usr/include/c++/11/bits/char_traits.h:39[m[K,
+[4.183s]                  from [01m[K/usr/include/c++/11/ios:40[m[K,
+[4.183s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.183s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.183s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.183s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.183s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1667:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Iterator> constexpr bool std::operator<(const std::move_iterator<_IteratorL>&, const std::move_iterator<_IteratorL>&)[m[K’
+[4.184s]  1667 |     [01;36m[Koperator[m[K<(const move_iterator<_Iterator>& __x,
+[4.184s]       |     [01;36m[K^~~~~~~~[m[K
+[4.184s] [01m[K/usr/include/c++/11/bits/stl_iterator.h:1667:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.184s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::move_iterator<_IteratorL>[m[K’
+[4.184s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.184s]       |                                               [01;36m[K^~~~[m[K
+[4.184s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[4.184s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[4.185s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[4.185s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[4.185s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.185s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.185s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.186s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.186s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.186s] [01m[K/usr/include/c++/11/string_view:589:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::basic_string_view<_CharT, _Traits>)[m[K’
+[4.186s]   589 |     [01;36m[Koperator[m[K< (basic_string_view<_CharT, _Traits> __x,
+[4.186s]       |     [01;36m[K^~~~~~~~[m[K
+[4.186s] [01m[K/usr/include/c++/11/string_view:589:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.187s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[4.187s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.187s]       |                                               [01;36m[K^~~~[m[K
+[4.187s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[4.187s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[4.187s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[4.187s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[4.188s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.188s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.188s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.188s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.188s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.188s] [01m[K/usr/include/c++/11/string_view:595:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::basic_string_view<_CharT, _Traits>, std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >)[m[K’
+[4.189s]   595 |     [01;36m[Koperator[m[K< (basic_string_view<_CharT, _Traits> __x,
+[4.189s]       |     [01;36m[K^~~~~~~~[m[K
+[4.189s] [01m[K/usr/include/c++/11/string_view:595:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.189s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kstd::basic_string_view<_CharT, _Traits>[m[K’
+[4.189s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.189s]       |                                               [01;36m[K^~~~[m[K
+[4.190s] In file included from [01m[K/usr/include/c++/11/bits/basic_string.h:48[m[K,
+[4.190s]                  from [01m[K/usr/include/c++/11/string:55[m[K,
+[4.190s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[4.190s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[4.190s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.190s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.190s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.191s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.191s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.191s] [01m[K/usr/include/c++/11/string_view:602:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits> constexpr bool std::operator<(std::__type_identity_t<std::basic_string_view<_CharT, _Traits> >, std::basic_string_view<_CharT, _Traits>)[m[K’
+[4.191s]   602 |     [01;36m[Koperator[m[K< (__type_identity_t<basic_string_view<_CharT, _Traits>> __x,
+[4.191s]       |     [01;36m[K^~~~~~~~[m[K
+[4.191s] [01m[K/usr/include/c++/11/string_view:602:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.192s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_CharT[m[K’
+[4.192s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.192s]       |                                               [01;36m[K^~~~[m[K
+[4.192s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[4.192s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[4.192s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[4.193s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.193s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.193s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.193s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.193s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.193s] [01m[K/usr/include/c++/11/bits/basic_string.h:6340:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[4.193s]  6340 |     [01;36m[Koperator[m[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[4.194s]       |     [01;36m[K^~~~~~~~[m[K
+[4.194s] [01m[K/usr/include/c++/11/bits/basic_string.h:6340:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.194s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[4.194s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.194s]       |                                               [01;36m[K^~~~[m[K
+[4.194s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[4.195s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[4.195s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[4.195s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.195s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.195s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.195s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.195s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.196s] [01m[K/usr/include/c++/11/bits/basic_string.h:6353:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&, const _CharT*)[m[K’
+[4.196s]  6353 |     [01;36m[Koperator[m[K<(const basic_string<_CharT, _Traits, _Alloc>& __lhs,
+[4.196s]       |     [01;36m[K^~~~~~~~[m[K
+[4.196s] [01m[K/usr/include/c++/11/bits/basic_string.h:6353:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.196s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::basic_string<_CharT, _Traits, _Allocator>[m[K’
+[4.196s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.197s]       |                                               [01;36m[K^~~~[m[K
+[4.197s] In file included from [01m[K/usr/include/c++/11/string:55[m[K,
+[4.197s]                  from [01m[K/usr/include/c++/11/bits/locale_classes.h:40[m[K,
+[4.197s]                  from [01m[K/usr/include/c++/11/bits/ios_base.h:41[m[K,
+[4.197s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.197s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.198s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.198s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.198s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.198s] [01m[K/usr/include/c++/11/bits/basic_string.h:6365:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _CharT, class _Traits, class _Alloc> bool std::operator<(const _CharT*, const std::__cxx11::basic_string<_CharT, _Traits, _Allocator>&)[m[K’
+[4.198s]  6365 |     [01;36m[Koperator[m[K<(const _CharT* __lhs,
+[4.198s]       |     [01;36m[K^~~~~~~~[m[K
+[4.199s] [01m[K/usr/include/c++/11/bits/basic_string.h:6365:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.199s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  mismatched types ‘[01m[Kconst _CharT*[m[K’ and ‘[01m[Kstd::basic_ostream<char>[m[K’
+[4.199s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.199s]       |                                               [01;36m[K^~~~[m[K
+[4.199s] In file included from [01m[K/usr/include/c++/11/tuple:39[m[K,
+[4.199s]                  from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.200s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.200s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.200s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.200s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.200s] [01m[K/usr/include/c++/11/array:311:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, long unsigned int _Nm> bool std::operator<(const std::array<_Tp, _Nm>&, const std::array<_Tp, _Nm>&)[m[K’
+[4.200s]   311 |     [01;36m[Koperator[m[K<(const array<_Tp, _Nm>& __a, const array<_Tp, _Nm>& __b)
+[4.200s]       |     [01;36m[K^~~~~~~~[m[K
+[4.201s] [01m[K/usr/include/c++/11/array:311:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.201s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::array<_Tp, _Nm>[m[K’
+[4.201s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.201s]       |                                               [01;36m[K^~~~[m[K
+[4.201s] In file included from [01m[K/usr/include/c++/11/bits/unique_ptr.h:37[m[K,
+[4.201s]                  from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.202s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.202s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.202s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.202s] [01m[K/usr/include/c++/11/tuple:1566:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _TElements, class ... _UElements> constexpr bool std::operator<(const std::tuple<_Tps ...>&, const std::tuple<_UTypes ...>&)[m[K’
+[4.202s]  1566 |     [01;36m[Koperator[m[K<(const tuple<_TElements...>& __t,
+[4.203s]       |     [01;36m[K^~~~~~~~[m[K
+[4.203s] [01m[K/usr/include/c++/11/tuple:1566:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.203s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::tuple<_Tps ...>[m[K’
+[4.203s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.203s]       |                                               [01;36m[K^~~~[m[K
+[4.203s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.203s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.204s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.204s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.204s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:795:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp, class _Up, class _Ep> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, const std::unique_ptr<_Up, _Ep>&)[m[K’
+[4.204s]   795 |     [01;36m[Koperator[m[K<(const unique_ptr<_Tp, _Dp>& __x,
+[4.204s]       |     [01;36m[K^~~~~~~~[m[K
+[4.204s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:795:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.204s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[4.205s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.205s]       |                                               [01;36m[K^~~~[m[K
+[4.205s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.205s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.205s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.205s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.205s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:807:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator<(const std::unique_ptr<_Tp, _Dp>&, std::nullptr_t)[m[K’
+[4.205s]   807 |     [01;36m[Koperator[m[K<(const unique_ptr<_Tp, _Dp>& __x, nullptr_t)
+[4.206s]       |     [01;36m[K^~~~~~~~[m[K
+[4.206s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:807:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.206s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::unique_ptr<_Tp, _Dp>[m[K’
+[4.206s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.206s]       |                                               [01;36m[K^~~~[m[K
+[4.206s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.206s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.207s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.207s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.207s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:816:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Dp> bool std::operator<(std::nullptr_t, const std::unique_ptr<_Tp, _Dp>&)[m[K’
+[4.207s]   816 |     [01;36m[Koperator[m[K<(nullptr_t, const unique_ptr<_Tp, _Dp>& __x)
+[4.207s]       |     [01;36m[K^~~~~~~~[m[K
+[4.207s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:816:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.207s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.208s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.208s]       |                                               [01;36m[K^~~~[m[K
+[4.208s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[4.208s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.208s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.208s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.208s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.208s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp1, _Lp>&, const std::__shared_ptr<_Tp2, _Lp>&)[m[K’
+[4.209s]  1457 |     [01;36m[Koperator[m[K<(const __shared_ptr<_Tp, _Lp>& __a,
+[4.209s]       |     [01;36m[K^~~~~~~~[m[K
+[4.209s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1457:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.209s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp1, _Lp>[m[K’
+[4.209s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.209s]       |                                               [01;36m[K^~~~[m[K
+[4.209s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[4.210s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.210s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.210s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.210s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.210s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(const std::__shared_ptr<_Tp, _Lp>&, std::nullptr_t)[m[K’
+[4.210s]  1468 |     [01;36m[Koperator[m[K<(const __shared_ptr<_Tp, _Lp>& __a, nullptr_t) noexcept
+[4.210s]       |     [01;36m[K^~~~~~~~[m[K
+[4.210s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1468:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.211s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::__shared_ptr<_Tp, _Lp>[m[K’
+[4.211s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.211s]       |                                               [01;36m[K^~~~[m[K
+[4.211s] In file included from [01m[K/usr/include/c++/11/bits/shared_ptr.h:53[m[K,
+[4.211s]                  from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.211s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.211s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.212s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.212s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, __gnu_cxx::_Lock_policy _Lp> bool std::operator<(std::nullptr_t, const std::__shared_ptr<_Tp, _Lp>&)[m[K’
+[4.212s]  1476 |     [01;36m[Koperator[m[K<(nullptr_t, const __shared_ptr<_Tp, _Lp>& __a) noexcept
+[4.212s]       |     [01;36m[K^~~~~~~~[m[K
+[4.212s] [01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1476:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.212s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.212s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.212s]       |                                               [01;36m[K^~~~[m[K
+[4.212s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.213s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.213s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.213s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.213s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:488:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> bool std::operator<(const std::shared_ptr<_Tp>&, const std::shared_ptr<_Tp>&)[m[K’
+[4.213s]   488 |     [01;36m[Koperator[m[K<(const shared_ptr<_Tp>& __a, const shared_ptr<_Up>& __b) noexcept
+[4.213s]       |     [01;36m[K^~~~~~~~[m[K
+[4.214s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:488:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.214s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[4.214s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.214s]       |                                               [01;36m[K^~~~[m[K
+[4.214s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.214s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.214s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.214s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.215s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:499:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator<(const std::shared_ptr<_Tp>&, std::nullptr_t)[m[K’
+[4.215s]   499 |     [01;36m[Koperator[m[K<(const shared_ptr<_Tp>& __a, nullptr_t) noexcept
+[4.215s]       |     [01;36m[K^~~~~~~~[m[K
+[4.215s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:499:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.215s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::shared_ptr<_Tp>[m[K’
+[4.215s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.215s]       |                                               [01;36m[K^~~~[m[K
+[4.215s] In file included from [01m[K/usr/include/c++/11/memory:77[m[K,
+[4.216s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+[4.216s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.216s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:508:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> bool std::operator<(std::nullptr_t, const std::shared_ptr<_Tp>&)[m[K’
+[4.216s]   508 |     [01;36m[Koperator[m[K<(nullptr_t, const shared_ptr<_Tp>& __a) noexcept
+[4.216s]       |     [01;36m[K^~~~~~~~[m[K
+[4.216s] [01m[K/usr/include/c++/11/bits/shared_ptr.h:508:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.216s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.216s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.217s]       |                                               [01;36m[K^~~~[m[K
+[4.217s] In file included from [01m[K/usr/include/c++/11/set:61[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.217s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.217s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.217s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.217s] [01m[K/usr/include/c++/11/bits/stl_set.h:1023:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::set<_Key, _Compare, _Allocator>&, const std::set<_Key, _Compare, _Allocator>&)[m[K’
+[4.218s]  1023 |     [01;36m[Koperator[m[K<(const set<_Key, _Compare, _Alloc>& __x,
+[4.218s]       |     [01;36m[K^~~~~~~~[m[K
+[4.218s] [01m[K/usr/include/c++/11/bits/stl_set.h:1023:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.218s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::set<_Key, _Compare, _Allocator>[m[K’
+[4.218s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.218s]       |                                               [01;36m[K^~~~[m[K
+[4.218s] In file included from [01m[K/usr/include/c++/11/set:62[m[K,
+[4.218s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:21[m[K,
+[4.218s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.219s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.219s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.219s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.219s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Compare, class _Alloc> bool std::operator<(const std::multiset<_Key, _Compare, _Allocator>&, const std::multiset<_Key, _Compare, _Allocator>&)[m[K’
+[4.219s]  1009 |     [01;36m[Koperator[m[K<(const multiset<_Key, _Compare, _Alloc>& __x,
+[4.219s]       |     [01;36m[K^~~~~~~~[m[K
+[4.219s] [01m[K/usr/include/c++/11/bits/stl_multiset.h:1009:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.219s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::multiset<_Key, _Compare, _Allocator>[m[K’
+[4.220s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.220s]       |                                               [01;36m[K^~~~[m[K
+[4.220s] In file included from [01m[K/usr/include/c++/11/vector:67[m[K,
+[4.220s]                  from [01m[K/usr/include/c++/11/functional:62[m[K,
+[4.220s]                  from [01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13[m[K,
+[4.220s]                  from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+[4.220s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.221s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.221s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.221s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.221s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1930:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::vector<_Tp, _Alloc>&, const std::vector<_Tp, _Alloc>&)[m[K’
+[4.221s]  1930 |     [01;36m[Koperator[m[K<(const vector<_Tp, _Alloc>& __x, const vector<_Tp, _Alloc>& __y)
+[4.221s]       |     [01;36m[K^~~~~~~~[m[K
+[4.221s] [01m[K/usr/include/c++/11/bits/stl_vector.h:1930:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.221s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::vector<_Tp, _Alloc>[m[K’
+[4.222s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.222s]       |                                               [01;36m[K^~~~[m[K
+[4.222s] In file included from [01m[K/usr/include/c++/11/list:63[m[K,
+[4.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:23[m[K,
+[4.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.222s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.222s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.223s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.223s] [01m[K/usr/include/c++/11/bits/stl_list.h:2085:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::__cxx11::list<_Tp, _Alloc>&, const std::__cxx11::list<_Tp, _Alloc>&)[m[K’
+[4.223s]  2085 |     [01;36m[Koperator[m[K<(const list<_Tp, _Alloc>& __x, const list<_Tp, _Alloc>& __y)
+[4.223s]       |     [01;36m[K^~~~~~~~[m[K
+[4.223s] [01m[K/usr/include/c++/11/bits/stl_list.h:2085:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.223s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::__cxx11::list<_Tp, _Alloc>[m[K’
+[4.223s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.223s]       |                                               [01;36m[K^~~~[m[K
+[4.223s] In file included from [01m[K/usr/include/c++/11/map:61[m[K,
+[4.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[4.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.224s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.224s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.224s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.224s] [01m[K/usr/include/c++/11/bits/stl_map.h:1501:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::map<_Key, _Tp, _Compare, _Allocator>&, const std::map<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[4.224s]  1501 |     [01;36m[Koperator[m[K<(const map<_Key, _Tp, _Compare, _Alloc>& __x,
+[4.224s]       |     [01;36m[K^~~~~~~~[m[K
+[4.224s] [01m[K/usr/include/c++/11/bits/stl_map.h:1501:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.224s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::map<_Key, _Tp, _Compare, _Allocator>[m[K’
+[4.225s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.225s]       |                                               [01;36m[K^~~~[m[K
+[4.225s] In file included from [01m[K/usr/include/c++/11/map:62[m[K,
+[4.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:24[m[K,
+[4.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.225s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.225s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.225s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.225s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Key, class _Tp, class _Compare, class _Alloc> bool std::operator<(const std::multimap<_Key, _Tp, _Compare, _Allocator>&, const std::multimap<_Key, _Tp, _Compare, _Allocator>&)[m[K’
+[4.226s]  1166 |     [01;36m[Koperator[m[K<(const multimap<_Key, _Tp, _Compare, _Alloc>& __x,
+[4.226s]       |     [01;36m[K^~~~~~~~[m[K
+[4.226s] [01m[K/usr/include/c++/11/bits/stl_multimap.h:1166:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.226s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::multimap<_Key, _Tp, _Compare, _Allocator>[m[K’
+[4.226s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.226s]       |                                               [01;36m[K^~~~[m[K
+[4.226s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[4.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.226s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.227s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.227s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.227s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.227s] [01m[K/usr/include/c++/11/optional:1063:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const std::optional<_Up>&)[m[K’
+[4.227s]  1063 |     [01;36m[Koperator[m[K<(const optional<_Tp>& __lhs, const optional<_Up>& __rhs)
+[4.227s]       |     [01;36m[K^~~~~~~~[m[K
+[4.228s] [01m[K/usr/include/c++/11/optional:1063:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.228s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[4.228s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.228s]       |                                               [01;36m[K^~~~[m[K
+[4.228s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[4.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.228s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.229s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.229s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.229s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.229s] [01m[K/usr/include/c++/11/optional:1131:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator<(const std::optional<_Tp>&, std::nullopt_t)[m[K’
+[4.229s]  1131 |     [01;36m[Koperator[m[K<(const optional<_Tp>& /* __lhs */, nullopt_t) noexcept
+[4.229s]       |     [01;36m[K^~~~~~~~[m[K
+[4.229s] [01m[K/usr/include/c++/11/optional:1131:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.229s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[4.230s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.230s]       |                                               [01;36m[K^~~~[m[K
+[4.230s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.230s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.231s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.231s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.231s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.231s] [01m[K/usr/include/c++/11/optional:1136:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> constexpr bool std::operator<(std::nullopt_t, const std::optional<_Tp>&)[m[K’
+[4.231s]  1136 |     [01;36m[Koperator[m[K<(nullopt_t, const optional<_Tp>& __rhs) noexcept
+[4.231s]       |     [01;36m[K^~~~~~~~[m[K
+[4.232s] [01m[K/usr/include/c++/11/optional:1136:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.232s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.232s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.232s]       |                                               [01;36m[K^~~~[m[K
+[4.232s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[4.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.232s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.233s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.233s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.233s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.233s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.233s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.233s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.233s] [01m[K/usr/include/c++/11/optional:1197:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Tp, _Up> std::operator<(const std::optional<_Tp>&, const _Up&)[m[K’
+[4.233s]  1197 |     [01;36m[Koperator[m[K<(const optional<_Tp>& __lhs, const _Up& __rhs)
+[4.233s]       |     [01;36m[K^~~~~~~~[m[K
+[4.233s] [01m[K/usr/include/c++/11/optional:1197:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.234s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::optional<_Tp>[m[K’
+[4.234s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.234s]       |                                               [01;36m[K^~~~[m[K
+[4.234s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:23[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.234s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.235s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.235s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.235s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.235s] [01m[K/usr/include/c++/11/optional:1203:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Up> constexpr std::__optional_lt_t<_Up, _Tp> std::operator<(const _Up&, const std::optional<_Tp>&)[m[K’
+[4.235s]  1203 |     [01;36m[Koperator[m[K<(const _Up& __lhs, const optional<_Tp>& __rhs)
+[4.235s]       |     [01;36m[K^~~~~~~~[m[K
+[4.236s] [01m[K/usr/include/c++/11/optional:1203:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.236s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  couldn’t deduce template parameter ‘[01m[K_Tp[m[K’
+[4.236s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.236s]       |                                               [01;36m[K^~~~[m[K
+[4.236s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.236s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.237s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.237s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.237s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.237s] [01m[K/usr/include/c++/11/variant:1230:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ... _Types> constexpr bool std::operator<(const std::variant<_Types ...>&, const std::variant<_Types ...>&)[m[K’
+[4.237s]  1230 |   [01;36m[K_VARIANT_RELATION_FUNCTION_TEMPLATE[m[K(<, less)
+[4.237s]       |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.237s] [01m[K/usr/include/c++/11/variant:1230:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.237s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::variant<_Types ...>[m[K’
+[4.237s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.237s]       |                                               [01;36m[K^~~~[m[K
+[4.237s] In file included from [01m[K/usr/include/c++/11/deque:67[m[K,
+[4.238s]                  from [01m[K/usr/include/c++/11/queue:60[m[K,
+[4.238s]                  from [01m[K/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46[m[K,
+[4.238s]                  from [01m[K/usr/include/opencv4/opencv2/stitching/detail/util.hpp:119[m[K,
+[4.238s]                  from [01m[K/usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48[m[K,
+[4.238s]                  from [01m[K/usr/include/opencv4/opencv2/stitching.hpp:50[m[K,
+[4.238s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:86[m[K,
+[4.238s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:19[m[K,
+[4.238s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.238s] [01m[K/usr/include/c++/11/bits/stl_deque.h:2285:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Alloc> bool std::operator<(const std::deque<_Tp, _Alloc>&, const std::deque<_Tp, _Alloc>&)[m[K’
+[4.238s]  2285 |     [01;36m[Koperator[m[K<(const deque<_Tp, _Alloc>& __x, const deque<_Tp, _Alloc>& __y)
+[4.238s]       |     [01;36m[K^~~~~~~~[m[K
+[4.239s] [01m[K/usr/include/c++/11/bits/stl_deque.h:2285:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.239s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::deque<_Tp, _Alloc>[m[K’
+[4.239s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.239s]       |                                               [01;36m[K^~~~[m[K
+[4.239s] In file included from [01m[K/usr/include/c++/11/queue:64[m[K,
+[4.239s]                  from [01m[K/usr/include/opencv4/opencv2/stitching/detail/util_inl.hpp:46[m[K,
+[4.239s]                  from [01m[K/usr/include/opencv4/opencv2/stitching/detail/util.hpp:119[m[K,
+[4.239s]                  from [01m[K/usr/include/opencv4/opencv2/stitching/detail/motion_estimators.hpp:48[m[K,
+[4.239s]                  from [01m[K/usr/include/opencv4/opencv2/stitching.hpp:50[m[K,
+[4.239s]                  from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:86[m[K,
+[4.240s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:19[m[K,
+[4.240s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.240s] [01m[K/usr/include/c++/11/bits/stl_queue.h:362:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class _Seq> bool std::operator<(const std::queue<_Tp, _Seq>&, const std::queue<_Tp, _Seq>&)[m[K’
+[4.240s]   362 |     [01;36m[Koperator[m[K<(const queue<_Tp, _Seq>& __x, const queue<_Tp, _Seq>& __y)
+[4.240s]       |     [01;36m[K^~~~~~~~[m[K
+[4.240s] [01m[K/usr/include/c++/11/bits/stl_queue.h:362:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.240s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:314:47:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::basic_ostream<char>[m[K’ is not derived from ‘[01m[Kconst std::queue<_Tp, _Seq>[m[K’
+[4.240s]   314 |                     std::cout<<"line==1"<std::[01;36m[Kendl[m[K;
+[4.240s]       |                                               [01;36m[K^~~~[m[K
+[4.240s] In file included from [01m[K/usr/include/c++/11/bits/ios_base.h:46[m[K,
+[4.240s]                  from [01m[K/usr/include/c++/11/ios:42[m[K,
+[4.241s]                  from [01m[K/usr/include/c++/11/ostream:38[m[K,
+[4.241s]                  from [01m[K/usr/include/c++/11/iostream:39[m[K,
+[4.241s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:5[m[K,
+[4.241s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.241s] [01m[K/usr/include/c++/11/system_error:269:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator<(const std::error_code&, const std::error_code&)[m[K’
+[4.241s]   269 |   [01;36m[Koperator[m[K<(const error_code& __lhs, const error_code& __rhs) noexcept
+[4.241s]       |   [01;36m[K^~~~~~~~[m[K
+[4.241s] [01m[K/usr/include/c++/11/system_error:269:31:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kconst std::error_code&[m[K’
+[4.241s]   269 |   operator<([01;36m[Kconst error_code& __lhs[m[K, const error_code& __rhs) noexcept
+[4.241s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.241s] [01m[K/usr/include/c++/11/system_error:398:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator<(const std::error_condition&, const std::error_condition&)[m[K’
+[4.241s]   398 |   [01;36m[Koperator[m[K<(const error_condition& __lhs,
+[4.242s]       |   [01;36m[K^~~~~~~~[m[K
+[4.242s] [01m[K/usr/include/c++/11/system_error:398:36:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kconst std::error_condition&[m[K’
+[4.242s]   398 |   operator<([01;36m[Kconst error_condition& __lhs[m[K,
+[4.242s]       |             [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[4.242s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:22[m[K,
+[4.242s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.242s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.242s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.242s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.242s] [01m[K/usr/include/c++/11/thread:70:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kbool std::operator<(std::thread::id, std::thread::id)[m[K’
+[4.242s]    70 |   [01;36m[Koperator[m[K<(thread::id __x, thread::id __y) noexcept
+[4.242s]       |   [01;36m[K^~~~~~~~[m[K
+[4.243s] [01m[K/usr/include/c++/11/thread:70:24:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::thread::id[m[K’
+[4.243s]    70 |   operator<([01;36m[Kthread::id __x[m[K, thread::id __y) noexcept
+[4.243s]       |             [01;36m[K~~~~~~~~~~~^~~[m[K
+[4.243s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:28[m[K,
+[4.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.243s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.244s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.244s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.244s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.244s] [01m[K/usr/include/c++/11/variant:1272:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr bool std::operator<(std::monostate, std::monostate)[m[K’
+[4.244s]  1272 |   constexpr bool [01;36m[Koperator[m[K<(monostate, monostate) noexcept { return false; }
+[4.244s]       |                  [01;36m[K^~~~~~~~[m[K
+[4.244s] [01m[K/usr/include/c++/11/variant:1272:28:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::basic_ostream<char>[m[K’ to ‘[01m[Kstd::monostate[m[K’
+[4.244s]  1272 |   constexpr bool operator<([01;36m[Kmonostate[m[K, monostate) noexcept { return false; }
+[4.244s]       |                            [01;36m[K^~~~~~~~~[m[K
+[9.308s] gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76：CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] 错误 1
+[9.309s] gmake[1]: *** [CMakeFiles/Makefile2:628：CMakeFiles/lio_sam_imageProjection.dir/all] 错误 2
+[9.310s] gmake: *** [Makefile:146：all] 错误 2
+[9.314s] Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24

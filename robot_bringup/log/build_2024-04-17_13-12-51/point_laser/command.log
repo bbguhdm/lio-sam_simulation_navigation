@@ -1,0 +1,2 @@
+Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
+Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser

@@ -1,0 +1,61 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+-- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: 
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'cpplint' to check C / C++ code against the Google style
+-- Configured cpplint exclude dirs and/or files: 
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup
+-- Install configuration: ""
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/launch
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/urdf
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/urdf/robo_car.urdf.xacro
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/path.sh
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/path.dsv
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.bash
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.sh
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.zsh
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.dsv
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/package.dsv
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/package.xml

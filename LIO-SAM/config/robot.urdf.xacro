@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="gazebo_sensor_plugin">
+
+        <gazebo reference="laser_link">
+            <sensor name="laser_sensor" type="ray">
+                <plugin name="laserscan" filename="libgazebo_ros_ray_sensor.so">
+                    <ros>
+                        <namespace>/</namespace>
+                        <remapping>~/out:=pointcloud</remapping>
+                    </ros>
+                    <output_type>sensor_msgs/PointCloud2</output_type>
+                </plugin>
+                <always_on>true</always_on>
+                <visualize>false</visualize>
+                <update_rate>8</update_rate>
+                <pose>0 0 0 0 0 0</pose>
+                <ray>
+                    <!-- 设置扫描范围 -->
+                    <scan>
+                        <horizontal>
+                            <samples>640</samples>
+                            <resolution>1.000000</resolution>
+                            <min_angle>0.000000</min_angle>
+                            <max_angle>32.280000</max_angle>
+                        </horizontal>
+                        <vertical>
+                            <samples>16</samples>
+                            <resolution>1</resolution>
+                            <min_angle>-0.261799</min_angle>
+                            <max_angle>0.261799</max_angle>
+                        </vertical>
+                    </scan>
+                    <!-- 设置扫描距离 -->
+                    <range>
+                        <min>0.120000</min>
+                        <max>30.0</max>
+                        <resolution>0.015000</resolution>
+                    </range>
+                    <!-- 设置噪声 -->
+                    <noise>
+                        <type>gaussian</type>
+                        <mean>0.0</mean>
+                        <stddev>0.01</stddev>
+                    </noise>
+                </ray>
+            </sensor>
+        </gazebo>

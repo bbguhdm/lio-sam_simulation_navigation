@@ -1,0 +1,6 @@
+Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/hdm/LIO-SAM/install/lio_sam
+Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/LIO-SAM -DCMAKE_INSTALL_PREFIX=/home/hdm/LIO-SAM/install/lio_sam
+Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hdm/LIO-SAM/build/lio_sam
+Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/hdm/LIO-SAM/build/lio_sam

@@ -1,0 +1,29 @@
+[0.036s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24
+[0.132s] [100%] Built target point_laser
+[0.148s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24
+[0.196s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup
+[0.205s] -- Install configuration: ""
+[0.205s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/lib/robot_bringup/point_laser
+[0.205s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/launch
+[0.205s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+[0.205s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/urdf
+[0.205s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/urdf/robo_car.urdf.xacro
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/world
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/world/my_world.world
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/path.sh
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.bash
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.sh
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[0.206s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[0.207s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/package.dsv
+[0.207s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[0.207s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.207s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[0.207s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[0.207s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/package.xml
+[0.209s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup

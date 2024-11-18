@@ -1,0 +1,73 @@
+[0.034s] Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[0.088s] [  8%] Built target lio_sam__rosidl_generator_c
+[0.089s] [ 10%] Built target lio_sam__cpp
+[0.101s] [ 19%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.102s] [ 36%] Built target lio_sam__rosidl_typesupport_c
+[0.102s] [ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.102s] [ 44%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.104s] [ 44%] Built target ament_cmake_python_copy_lio_sam
+[0.107s] [ 53%] Built target lio_sam__rosidl_typesupport_cpp
+[0.113s] [ 61%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.130s] [ 61%] Built target lio_sam
+[0.142s] [ 63%] Built target lio_sam__py
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[0.152s] [ 68%] Built target lio_sam_featureExtraction
+[0.156s] [ 72%] Built target lio_sam_imuPreintegration
+[0.156s] [ 76%] Built target lio_sam_mapOptimization
+[0.157s] [ 82%] Built target lio_sam__rosidl_generator_py
+[0.167s] [ 85%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[0.170s] [ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.170s] [ 93%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.172s] [ 97%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.243s] running egg_info
+[0.243s] writing lio_sam.egg-info/PKG-INFO
+[0.243s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.243s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.244s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.244s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.258s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[1.146s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+[1.146s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[1.146s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.147s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[1.147s]       |  [01;35m[K^~~~~~~[m[K
+[1.149s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+[1.149s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[1.149s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.149s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.149s]       |  [01;35m[K^~~~~~~[m[K
+[4.145s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.145s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.146s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.146s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.146s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:[m[K In member function ‘[01m[Kbool ImageProjection::cachePointCloud(const SharedPtr&)[m[K’:
+[4.146s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:31:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+[4.146s]   312 |                  RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+[4.146s]       |                               [01;31m[K^~~~[m[K
+[4.146s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.146s]   312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+[4.146s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.146s]   312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+[4.146s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.146s]   312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+[4.146s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[4.146s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[4.146s]   312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+[4.146s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[4.147s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.147s]   312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+[4.147s]       |                  [01;31m[K^~~~~~~~~~~~[m[K
+[6.911s] gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76: CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] 中断
+[6.911s] gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/lio_sam_imageProjection.dir/all] 中断
+[6.912s] gmake: *** [Makefile:146: all] 中断
+[6.953s] Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24

@@ -1,0 +1,7 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at cmake_install.cmake:74 (file):
+  file INSTALL cannot find
+  "/home/hdm/lio-sam_simulation_car/robot_bringup/meshes": No such file or
+  directory.
+
+[0m

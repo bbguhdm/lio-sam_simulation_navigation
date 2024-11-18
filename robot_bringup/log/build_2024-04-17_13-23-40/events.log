@@ -1,0 +1,176 @@
+[0.000000] (-) TimerEvent: {}
+[0.000268] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000332] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.031338] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.031472] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '/home/hdm/lio-sam_simulation_car/robot_bringup', '-DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup'], 'cwd': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4685'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2313,unix/robot:/tmp/.ICE-unix/2313'), ('INVOCATION_ID', 'bcd12c4452a240c2bab50566764f537e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-93d9f94c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[0.099118] (-) TimerEvent: {}
+[0.103664] (robot_bringup) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.176617] (robot_bringup) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.190817] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199331] (-) TimerEvent: {}
+[0.292390] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.299441] (-) TimerEvent: {}
+[0.315219] (robot_bringup) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.316047] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.317298] (robot_bringup) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.326592] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399622] (-) TimerEvent: {}
+[0.436775] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.446092] (robot_bringup) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.446490] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.447022] (robot_bringup) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.449496] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.499831] (-) TimerEvent: {}
+[0.600202] (-) TimerEvent: {}
+[0.616459] (robot_bringup) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.700354] (-) TimerEvent: {}
+[0.757300] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.759605] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.763729] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.770334] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.779737] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.800542] (-) TimerEvent: {}
+[0.814061] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.815355] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.831286] (robot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.835960] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.900863] (-) TimerEvent: {}
+[0.932102] (robot_bringup) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.932382] (robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.001007] (-) TimerEvent: {}
+[1.034800] (robot_bringup) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.036348] (robot_bringup) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.101140] (-) TimerEvent: {}
+[1.201591] (-) TimerEvent: {}
+[1.302134] (-) TimerEvent: {}
+[1.319911] (robot_bringup) StdoutLine: {'line': b"-- Checking for module 'eigen3'\n"}
+[1.334474] (robot_bringup) StdoutLine: {'line': b'--   Found eigen3, version 3.4.0\n'}
+[1.371700] (robot_bringup) StdoutLine: {'line': b'-- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") \n'}
+[1.371954] (robot_bringup) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.381975] (robot_bringup) StdoutLine: {'line': b'-- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization \n'}
+[1.391840] (robot_bringup) StdoutLine: {'line': b"-- Checking for module 'flann'\n"}
+[1.402523] (-) TimerEvent: {}
+[1.407135] (robot_bringup) StdoutLine: {'line': b'--   Found flann, version 1.9.1\n'}
+[1.459745] (robot_bringup) StdoutLine: {'line': b'-- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  \n'}
+[1.459982] (robot_bringup) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[1.489882] (robot_bringup) StdoutLine: {'line': b'-- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  \n'}
+[1.493908] (robot_bringup) StdoutLine: {'line': b'-- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX \n'}
+[1.502613] (-) TimerEvent: {}
+[1.603041] (-) TimerEvent: {}
+[1.678053] (robot_bringup) StdoutLine: {'line': b'-- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") \n'}
+[1.679009] (robot_bringup) StdoutLine: {'line': b'-- Found MPI: TRUE (found version "3.1") found components: C \n'}
+[1.686262] (robot_bringup) StdoutLine: {'line': b'-- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") \n'}
+[1.703210] (-) TimerEvent: {}
+[1.718019] (robot_bringup) StdoutLine: {'line': b'-- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") \n'}
+[1.761453] (robot_bringup) StdoutLine: {'line': b'-- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") \n'}
+[1.779230] (robot_bringup) StdoutLine: {'line': b'-- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") \n'}
+[1.803419] (-) TimerEvent: {}
+[1.878437] (robot_bringup) StdoutLine: {'line': b'-- Found X11: /usr/include   \n'}
+[1.878827] (robot_bringup) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so\n'}
+[1.903594] (-) TimerEvent: {}
+[1.976804] (robot_bringup) StdoutLine: {'line': b'-- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found\n'}
+[1.977290] (robot_bringup) StdoutLine: {'line': b'-- Looking for gethostbyname\n'}
+[2.003717] (-) TimerEvent: {}
+[2.079627] (robot_bringup) StdoutLine: {'line': b'-- Looking for gethostbyname - found\n'}
+[2.080061] (robot_bringup) StdoutLine: {'line': b'-- Looking for connect\n'}
+[2.103869] (-) TimerEvent: {}
+[2.180315] (robot_bringup) StdoutLine: {'line': b'-- Looking for connect - found\n'}
+[2.180572] (robot_bringup) StdoutLine: {'line': b'-- Looking for remove\n'}
+[2.203956] (-) TimerEvent: {}
+[2.279465] (robot_bringup) StdoutLine: {'line': b'-- Looking for remove - found\n'}
+[2.279692] (robot_bringup) StdoutLine: {'line': b'-- Looking for shmat\n'}
+[2.304088] (-) TimerEvent: {}
+[2.387243] (robot_bringup) StdoutLine: {'line': b'-- Looking for shmat - found\n'}
+[2.387790] (robot_bringup) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE\n'}
+[2.404201] (-) TimerEvent: {}
+[2.480555] (robot_bringup) StdoutLine: {'line': b'-- Looking for IceConnectionNumber in ICE - found\n'}
+[2.504376] (-) TimerEvent: {}
+[2.548827] (robot_bringup) StdoutLine: {'line': b'-- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") \n'}
+[2.549821] (robot_bringup) StdoutLine: {'line': b'-- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  \n'}
+[2.551014] (robot_bringup) StdoutLine: {'line': b'-- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") \n'}
+[2.551818] (robot_bringup) StdoutLine: {'line': b'-- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") \n'}
+[2.559003] (robot_bringup) StdoutLine: {'line': b'-- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") \n'}
+[2.569357] (robot_bringup) StdoutLine: {'line': b'-- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  \n'}
+[2.576768] (robot_bringup) StdoutLine: {'line': b'-- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") \n'}
+[2.585485] (robot_bringup) StdoutLine: {'line': b'-- Found utf8cpp: /usr/include/utf8cpp  \n'}
+[2.604478] (-) TimerEvent: {}
+[2.673162] (robot_bringup) StdoutLine: {'line': b"-- Checking for module 'libusb-1.0'\n"}
+[2.687263] (robot_bringup) StdoutLine: {'line': b'--   Found libusb-1.0, version 1.0.25\n'}
+[2.704610] (-) TimerEvent: {}
+[2.728008] (robot_bringup) StdoutLine: {'line': b'-- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  \n'}
+[2.728506] (robot_bringup) StdoutLine: {'line': b'-- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") \n'}
+[2.728656] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.784957] (robot_bringup) StdoutLine: {'line': b'-- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") \n'}
+[2.785175] (robot_bringup) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.785265] (robot_bringup) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[2.804723] (-) TimerEvent: {}
+[2.874659] (robot_bringup) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[2.878895] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[2.883539] (robot_bringup) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[2.904811] (-) TimerEvent: {}
+[2.969324] (robot_bringup) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[3.004925] (-) TimerEvent: {}
+[3.057822] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[3.105063] (-) TimerEvent: {}
+[3.142850] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[3.143489] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  \n'}
+[3.143819] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[3.144335] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  \n'}
+[3.144556] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[3.145039] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  \n'}
+[3.145267] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[3.145431] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  \n'}
+[3.145654] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[3.145807] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  \n'}
+[3.145959] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[3.146358] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  \n'}
+[3.146694] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[3.146868] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_2D: /usr/include/pcl-1.12  \n'}
+[3.147020] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[3.147168] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_GEOMETRY: /usr/include/pcl-1.12  \n'}
+[3.147313] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[3.147586] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  \n'}
+[3.147760] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[3.147898] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  \n'}
+[3.148042] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[3.148176] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  \n'}
+[3.148313] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[3.148513] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  \n'}
+[3.148757] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[3.148901] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  \n'}
+[3.149074] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[3.149216] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  \n'}
+[3.149407] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[3.149600] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  \n'}
+[3.149807] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[3.149998] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  \n'}
+[3.150194] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[3.150520] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  \n'}
+[3.150728] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[3.151002] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  \n'}
+[3.151184] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[3.151558] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  \n'}
+[3.151767] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[3.152025] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  \n'}
+[3.152308] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[3.152492] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  \n'}
+[3.152741] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[3.152890] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_MODELER: /usr/include/pcl-1.12  \n'}
+[3.153039] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[3.153230] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  \n'}
+[3.153426] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[3.153640] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  \n'}
+[3.153782] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[3.153955] (robot_bringup) StdoutLine: {'line': b'-- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  \n'}
+[3.154266] (robot_bringup) StdoutLine: {'line': b'-- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  \n'}
+[3.187607] (robot_bringup) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:35 (target_link_libraries):\n'}
+[3.187932] (robot_bringup) StderrLine: {'line': b'  Cannot specify link libraries for target "robot_bringup" which is not built\n'}
+[3.188102] (robot_bringup) StderrLine: {'line': b'  by this project.\n'}
+[3.188248] (robot_bringup) StderrLine: {'line': b'\n'}
+[3.188388] (robot_bringup) StderrLine: {'line': b'\x1b[0m\n'}
+[3.188551] (robot_bringup) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[3.188710] (robot_bringup) StdoutLine: {'line': b'See also "/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup/CMakeFiles/CMakeOutput.log".\n'}
+[3.197449] (robot_bringup) CommandEnded: {'returncode': 1}
+[3.205232] (-) TimerEvent: {}
+[3.221935] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 1}
+[3.232551] (-) EventReactorShutdown: {}

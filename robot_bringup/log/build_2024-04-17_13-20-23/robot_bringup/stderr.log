@@ -1,0 +1,6 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[31mCMake Error at CMakeLists.txt:50 (ament_auto_package):
+  Unknown CMake command "ament_auto_package".
+
+[0m
+gmake: *** [Makefile:267：cmake_check_build_system] 错误 1

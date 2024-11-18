@@ -1,0 +1,201 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000318] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.032081] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.032990] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[0.034290] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup', '--', '-j24', '-l24'], 'cwd': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4685'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2313,unix/robot:/tmp/.ICE-unix/2313'), ('INVOCATION_ID', 'bcd12c4452a240c2bab50566764f537e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-93d9f94c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[0.070714] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.099230] (-) TimerEvent: {}
+[0.199662] (-) TimerEvent: {}
+[0.299932] (-) TimerEvent: {}
+[0.324607] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.328389] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.337807] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.352325] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.362083] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.390714] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.391401] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.400096] (-) TimerEvent: {}
+[0.405582] (robot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.500298] (-) TimerEvent: {}
+[0.600847] (-) TimerEvent: {}
+[0.622499] (robot_bringup) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.641686] (robot_bringup) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.701050] (-) TimerEvent: {}
+[0.801520] (-) TimerEvent: {}
+[0.901894] (-) TimerEvent: {}
+[0.950642] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.955120] (robot_bringup) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.955336] (robot_bringup) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.002075] (-) TimerEvent: {}
+[1.043032] (robot_bringup) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.047772] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.052438] (robot_bringup) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.102253] (-) TimerEvent: {}
+[1.133348] (robot_bringup) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.202446] (-) TimerEvent: {}
+[1.219329] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.300605] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.300828] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.301089] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.301263] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.301360] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.301610] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.301821] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.301920] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.302150] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.302368] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.302458] (-) TimerEvent: {}
+[1.302622] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.302768] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.302852] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.302950] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.303023] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.303119] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.303301] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.303499] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.303728] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.303966] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.304329] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.304564] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.304660] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.304778] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.304882] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.337315] (robot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.345091] (robot_bringup) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.345282] (robot_bringup) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.345376] (robot_bringup) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.349138] (robot_bringup) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.349321] (robot_bringup) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.349777] (robot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.350899] (robot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.351481] (robot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.352101] (robot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.352589] (robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.359620] (robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.360864] (robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup\n'}
+[1.402714] (-) TimerEvent: {}
+[1.403259] (robot_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/point_deal.dir/src/point_deal.cpp.o\x1b[0m\n'}
+[1.502901] (-) TimerEvent: {}
+[1.603409] (-) TimerEvent: {}
+[1.703946] (-) TimerEvent: {}
+[1.804482] (-) TimerEvent: {}
+[1.905038] (-) TimerEvent: {}
+[2.005505] (-) TimerEvent: {}
+[2.106057] (-) TimerEvent: {}
+[2.206634] (-) TimerEvent: {}
+[2.307179] (-) TimerEvent: {}
+[2.407776] (-) TimerEvent: {}
+[2.508354] (-) TimerEvent: {}
+[2.608908] (-) TimerEvent: {}
+[2.709410] (-) TimerEvent: {}
+[2.809747] (-) TimerEvent: {}
+[2.910300] (-) TimerEvent: {}
+[3.010830] (-) TimerEvent: {}
+[3.111403] (-) TimerEvent: {}
+[3.211858] (-) TimerEvent: {}
+[3.312185] (-) TimerEvent: {}
+[3.412730] (-) TimerEvent: {}
+[3.513322] (-) TimerEvent: {}
+[3.613930] (-) TimerEvent: {}
+[3.714538] (-) TimerEvent: {}
+[3.815094] (-) TimerEvent: {}
+[3.816665] (robot_bringup) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/eigen3/Eigen/Core:22\x1b[m\x1b[K,\n'}
+[3.817077] (robot_bringup) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/memory.h:48\x1b[m\x1b[K,\n'}
+[3.817254] (robot_bringup) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:41\x1b[m\x1b[K,\n'}
+[3.817402] (robot_bringup) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/pcl-1.12/pcl/point_types.h:354\x1b[m\x1b[K,\n'}
+[3.817544] (robot_bringup) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6\x1b[m\x1b[K:\n'}
+[3.817687] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattribute ignored in declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct LivoxPointXYZITL\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes\x07-Werror=attributes\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.817840] (robot_bringup) StderrLine: {'line': b'   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) \x1b[01;31m\x1b[Kalignas\x1b[m\x1b[K(n)\n'}
+[3.817977] (robot_bringup) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.818118] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.818299] (robot_bringup) StderrLine: {'line': b'  153 | #define EIGEN_ALIGN16 \x1b[01;36m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K(16)\n'}
+[3.818434] (robot_bringup) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.818562] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:18:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.818693] (robot_bringup) StderrLine: {'line': b'   18 | } \x1b[01;36m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K;\n'}
+[3.818823] (robot_bringup) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.818949] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kattribute for \xe2\x80\x98\x1b[01m\x1b[Kstruct LivoxPointXYZITL\x1b[m\x1b[K\xe2\x80\x99 must follow the \xe2\x80\x98\x1b[01m\x1b[Kstruct\x1b[m\x1b[K\xe2\x80\x99 keyword\n'}
+[3.819079] (robot_bringup) StderrLine: {'line': b'   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) \x1b[01;36m\x1b[Kalignas\x1b[m\x1b[K(n)\n'}
+[3.819207] (robot_bringup) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.819840] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.820053] (robot_bringup) StderrLine: {'line': b'  153 | #define EIGEN_ALIGN16 \x1b[01;36m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K(16)\n'}
+[3.820204] (robot_bringup) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.820349] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:18:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.820493] (robot_bringup) StderrLine: {'line': b'   18 | } \x1b[01;36m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K;\n'}
+[3.820625] (robot_bringup) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.820760] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattribute ignored in declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct OusterPointXYZIRT\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes\x07-Werror=attributes\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.820903] (robot_bringup) StderrLine: {'line': b'   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) \x1b[01;31m\x1b[Kalignas\x1b[m\x1b[K(n)\n'}
+[3.821034] (robot_bringup) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.821165] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.821297] (robot_bringup) StderrLine: {'line': b'  153 | #define EIGEN_ALIGN16 \x1b[01;36m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K(16)\n'}
+[3.821428] (robot_bringup) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.821558] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:33:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.821691] (robot_bringup) StderrLine: {'line': b'   33 | } \x1b[01;36m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K;\n'}
+[3.821888] (robot_bringup) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.822027] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kattribute for \xe2\x80\x98\x1b[01m\x1b[Kstruct OusterPointXYZIRT\x1b[m\x1b[K\xe2\x80\x99 must follow the \xe2\x80\x98\x1b[01m\x1b[Kstruct\x1b[m\x1b[K\xe2\x80\x99 keyword\n'}
+[3.822162] (robot_bringup) StderrLine: {'line': b'   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) \x1b[01;36m\x1b[Kalignas\x1b[m\x1b[K(n)\n'}
+[3.822328] (robot_bringup) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.822458] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.822609] (robot_bringup) StderrLine: {'line': b'  153 | #define EIGEN_ALIGN16 \x1b[01;36m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K(16)\n'}
+[3.822749] (robot_bringup) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.823278] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:33:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.823536] (robot_bringup) StderrLine: {'line': b'   33 | } \x1b[01;36m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K;\n'}
+[3.823715] (robot_bringup) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.823861] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kattribute ignored in declaration of \xe2\x80\x98\x1b[01m\x1b[Kstruct VelodynePointXYZIRT\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes\x07-Werror=attributes\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.824014] (robot_bringup) StderrLine: {'line': b'   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) \x1b[01;31m\x1b[Kalignas\x1b[m\x1b[K(n)\n'}
+[3.824206] (robot_bringup) StderrLine: {'line': b'      |                                      \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.824340] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.824488] (robot_bringup) StderrLine: {'line': b'  153 | #define EIGEN_ALIGN16 \x1b[01;36m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K(16)\n'}
+[3.824623] (robot_bringup) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.824755] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:47:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.824892] (robot_bringup) StderrLine: {'line': b'   47 | } \x1b[01;36m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K;\n'}
+[3.825030] (robot_bringup) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.825188] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kattribute for \xe2\x80\x98\x1b[01m\x1b[Kstruct VelodynePointXYZIRT\x1b[m\x1b[K\xe2\x80\x99 must follow the \xe2\x80\x98\x1b[01m\x1b[Kstruct\x1b[m\x1b[K\xe2\x80\x99 keyword\n'}
+[3.825323] (robot_bringup) StderrLine: {'line': b'   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) \x1b[01;36m\x1b[Kalignas\x1b[m\x1b[K(n)\n'}
+[3.825456] (robot_bringup) StderrLine: {'line': b'      |                                      \x1b[01;36m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.825585] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.825717] (robot_bringup) StderrLine: {'line': b'  153 | #define EIGEN_ALIGN16 \x1b[01;36m\x1b[KEIGEN_ALIGN_TO_BOUNDARY\x1b[m\x1b[K(16)\n'}
+[3.825845] (robot_bringup) StderrLine: {'line': b'      |                       \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.825974] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:47:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin expansion of macro \xe2\x80\x98\x1b[01m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.826104] (robot_bringup) StderrLine: {'line': b'   47 | } \x1b[01;36m\x1b[KEIGEN_ALIGN16\x1b[m\x1b[K;\n'}
+[3.826231] (robot_bringup) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.915293] (-) TimerEvent: {}
+[4.015874] (-) TimerEvent: {}
+[4.116425] (-) TimerEvent: {}
+[4.216918] (-) TimerEvent: {}
+[4.317481] (-) TimerEvent: {}
+[4.418009] (-) TimerEvent: {}
+[4.518560] (-) TimerEvent: {}
+[4.619163] (-) TimerEvent: {}
+[4.719726] (-) TimerEvent: {}
+[4.820273] (-) TimerEvent: {}
+[4.920727] (-) TimerEvent: {}
+[5.021184] (-) TimerEvent: {}
+[5.121696] (-) TimerEvent: {}
+[5.222293] (-) TimerEvent: {}
+[5.322881] (-) TimerEvent: {}
+[5.423490] (-) TimerEvent: {}
+[5.524053] (-) TimerEvent: {}
+[5.624612] (-) TimerEvent: {}
+[5.725168] (-) TimerEvent: {}
+[5.825725] (-) TimerEvent: {}
+[5.926256] (-) TimerEvent: {}
+[6.026677] (-) TimerEvent: {}
+[6.127223] (-) TimerEvent: {}
+[6.227806] (-) TimerEvent: {}
+[6.328357] (-) TimerEvent: {}
+[6.428933] (-) TimerEvent: {}
+[6.529496] (-) TimerEvent: {}
+[6.630025] (-) TimerEvent: {}
+[6.730569] (-) TimerEvent: {}
+[6.831115] (-) TimerEvent: {}
+[6.931678] (-) TimerEvent: {}
+[7.032216] (-) TimerEvent: {}
+[7.079891] (robot_bringup) StderrLine: {'line': b'cc1plus: all warnings being treated as errors\n'}
+[7.106747] (robot_bringup) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/point_deal.dir/build.make:76\xef\xbc\x9aCMakeFiles/point_deal.dir/src/point_deal.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[7.107283] (robot_bringup) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137\xef\xbc\x9aCMakeFiles/point_deal.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.107597] (robot_bringup) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[7.111355] (robot_bringup) CommandEnded: {'returncode': 2}
+[7.132464] (-) TimerEvent: {}
+[7.183659] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 2}
+[7.194177] (-) EventReactorShutdown: {}

@@ -1,0 +1,76 @@
+[0.033s] Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[0.102s] [  8%] Built target lio_sam__rosidl_generator_c
+[0.104s] [ 10%] Built target lio_sam__cpp
+[0.113s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[0.118s] [ 19%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.119s] [ 27%] Built target lio_sam__rosidl_typesupport_c
+[0.125s] [ 36%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.128s] [ 44%] Built target lio_sam__rosidl_typesupport_cpp
+[0.131s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.132s] [ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.151s] [ 61%] Built target lio_sam
+[0.164s] [ 63%] Built target lio_sam__py
+[0.174s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_imageProjection[0m
+[0.176s] [ 70%] Built target lio_sam_imuPreintegration
+[0.176s] [ 74%] Built target lio_sam_mapOptimization
+[0.176s] [ 78%] Built target lio_sam__rosidl_generator_py
+[0.189s] [ 82%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.189s] [ 91%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.189s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.194s] [ 95%] Built target lio_sam_featureExtraction
+[0.203s] [ 97%] [32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o[0m
+[0.241s] running egg_info
+[0.241s] writing lio_sam.egg-info/PKG-INFO
+[0.241s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.242s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.243s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.243s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.262s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[1.247s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+[1.248s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[1.248s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.248s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[1.249s]       |  [01;35m[K^~~~~~~[m[K
+[1.250s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+[1.251s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[1.251s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.251s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.251s]       |  [01;35m[K^~~~~~~[m[K
+[4.407s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[4.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[4.408s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[4.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.409s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.409s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.409s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.409s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:[m[K In member function ‘[01m[Kbool ImageProjection::cachePointCloud(const SharedPtr&)[m[K’:
+[4.409s] [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:44:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Kstd::string[m[K’ {aka ‘[01m[Kstd::__cxx11::basic_string<char>[m[K’} to ‘[01m[Kconst char*[m[K’
+[4.410s]   312 |                 RCLCPP_ERROR(get_logger(), [01;31m[Kname[m[K);
+[4.410s]       |                                            [01;31m[K^~~~[m[K
+[4.410s]       |                                            [01;31m[K|[m[K
+[4.410s]       |                                            [01;31m[Kstd::string {aka std::__cxx11::basic_string<char>}[m[K
+[4.410s] In file included from [01m[K/opt/ros/humble/include/rmw/rmw/types.h:28[m[K,
+[4.410s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/types.h:20[m[K,
+[4.410s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/log_level.h:22[m[K,
+[4.410s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/arguments.h:21[m[K,
+[4.411s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/context.h:28[m[K,
+[4.411s]                  from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+[4.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+[4.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[4.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[4.411s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[4.411s]                  from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+[4.412s]                  from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[4.412s] [01m[K/opt/ros/humble/include/rcutils/rcutils/logging.h:479:16:[m[K [01;36m[Knote: [m[K  initializing argument 4 of ‘[01m[Kvoid rcutils_log(const rcutils_log_location_t*, int, const char*, const char*, ...)[m[K’
+[4.412s]   479 |   [01;36m[Kconst char * format[m[K,
+[4.412s]       |   [01;36m[K~~~~~~~~~~~~~^~~~~~[m[K
+[9.432s] gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76：CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] 错误 1
+[9.433s] gmake[1]: *** [CMakeFiles/Makefile2:628：CMakeFiles/lio_sam_imageProjection.dir/all] 错误 2
+[9.434s] gmake: *** [Makefile:146：all] 错误 2
+[9.439s] Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24

@@ -1,0 +1,5 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_laser.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   43 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+      |                      [31m[K-[m[K

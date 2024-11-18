@@ -1,0 +1,9 @@
+/pointcloud_downsampling:
+  ros__parameters:
+    sub_topic: "/pointclouds"
+    pub_topic: "/pointcloud"
+    pub_cloud_frame: "lidar_link"
+    leaf_size_x: 0.2
+    leaf_size_y: 0.2
+    leaf_size_z: 0.2
+    downsample_all_data: false

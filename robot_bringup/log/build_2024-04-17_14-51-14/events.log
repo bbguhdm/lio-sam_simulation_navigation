@@ -1,0 +1,114 @@
+[0.000000] (-) TimerEvent: {}
+[0.000256] (point_laser) JobQueued: {'identifier': 'point_laser', 'dependencies': OrderedDict()}
+[0.000304] (point_laser) JobStarted: {'identifier': 'point_laser'}
+[0.031401] (point_laser) JobProgress: {'identifier': 'point_laser', 'progress': 'cmake'}
+[0.032612] (point_laser) JobProgress: {'identifier': 'point_laser', 'progress': 'build'}
+[0.032893] (point_laser) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser', '--', '-j24', '-l24'], 'cwd': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4685'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2313,unix/robot:/tmp/.ICE-unix/2313'), ('INVOCATION_ID', 'bcd12c4452a240c2bab50566764f537e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-93d9f94c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[0.073416] (point_laser) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099118] (-) TimerEvent: {}
+[0.199685] (-) TimerEvent: {}
+[0.227038] (point_laser) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.289872] (point_laser) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.293389] (point_laser) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.299895] (-) TimerEvent: {}
+[0.301056] (point_laser) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.314804] (point_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.324785] (point_laser) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.354378] (point_laser) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.355138] (point_laser) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.369952] (point_laser) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.400104] (-) TimerEvent: {}
+[0.450569] (point_laser) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.500278] (-) TimerEvent: {}
+[0.514680] (point_laser) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.592760] (point_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.600498] (-) TimerEvent: {}
+[0.612611] (point_laser) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.700712] (-) TimerEvent: {}
+[0.801361] (-) TimerEvent: {}
+[0.902007] (-) TimerEvent: {}
+[0.918096] (point_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.923060] (point_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.923646] (point_laser) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[1.002392] (-) TimerEvent: {}
+[1.005198] (point_laser) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[1.009707] (point_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.014536] (point_laser) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.094406] (point_laser) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.102601] (-) TimerEvent: {}
+[1.175813] (point_laser) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.202779] (-) TimerEvent: {}
+[1.257232] (point_laser) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.257759] (point_laser) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.257951] (point_laser) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.258101] (point_laser) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.258550] (point_laser) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.258913] (point_laser) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.259094] (point_laser) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.259247] (point_laser) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.259394] (point_laser) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.259536] (point_laser) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.259774] (point_laser) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.259938] (point_laser) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.260082] (point_laser) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.260228] (point_laser) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.260366] (point_laser) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.260605] (point_laser) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.260766] (point_laser) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.260900] (point_laser) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.261039] (point_laser) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.261178] (point_laser) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.261393] (point_laser) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.261584] (point_laser) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.261769] (point_laser) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.261906] (point_laser) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.262035] (point_laser) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.262277] (point_laser) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.302975] (-) TimerEvent: {}
+[1.355401] (point_laser) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.367619] (point_laser) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.367956] (point_laser) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.368126] (point_laser) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.369068] (point_laser) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.371280] (point_laser) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.372398] (point_laser) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.380736] (point_laser) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.381068] (point_laser) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.381956] (point_laser) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.382512] (point_laser) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.395373] (point_laser) StdoutLine: {'line': b'-- Generating done\n'}
+[1.396603] (point_laser) StdoutLine: {'line': b'-- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser\n'}
+[1.403147] (-) TimerEvent: {}
+[1.430998] (point_laser) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target point_laser\x1b[0m\n'}
+[1.467893] (point_laser) StdoutLine: {'line': b'[100%] Built target point_laser\n'}
+[1.485121] (point_laser) CommandEnded: {'returncode': 0}
+[1.503313] (-) TimerEvent: {}
+[1.518318] (point_laser) JobProgress: {'identifier': 'point_laser', 'progress': 'install'}
+[1.530851] (point_laser) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser'], 'cwd': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4685'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2313,unix/robot:/tmp/.ICE-unix/2313'), ('INVOCATION_ID', 'bcd12c4452a240c2bab50566764f537e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-93d9f94c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[1.540881] (point_laser) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.541329] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/lib/point_laser/point_laser\n'}
+[1.541452] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/launch\n'}
+[1.541577] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/launch/bringup.launch.py\n'}
+[1.541683] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/urdf\n'}
+[1.541806] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/urdf/robo_car.urdf.xacro\n'}
+[1.541946] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/package_run_dependencies/point_laser\n'}
+[1.542077] (point_laser) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/parent_prefix_path/point_laser\n'}
+[1.542189] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/ament_prefix_path.sh\n'}
+[1.542284] (point_laser) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/ament_prefix_path.dsv\n'}
+[1.542403] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/path.sh\n'}
+[1.542477] (point_laser) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/path.dsv\n'}
+[1.542548] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.bash\n'}
+[1.542617] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.sh\n'}
+[1.542693] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.zsh\n'}
+[1.542761] (point_laser) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.dsv\n'}
+[1.542831] (point_laser) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.dsv\n'}
+[1.542911] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/packages/point_laser\n'}
+[1.542981] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.543050] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/point_laserConfig.cmake\n'}
+[1.543123] (point_laser) StdoutLine: {'line': b'-- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/point_laserConfig-version.cmake\n'}
+[1.543194] (point_laser) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.xml\n'}
+[1.544451] (point_laser) CommandEnded: {'returncode': 0}
+[1.605077] (-) TimerEvent: {}
+[1.707661] (-) TimerEvent: {}
+[1.749583] (point_laser) JobEnded: {'identifier': 'point_laser', 'rc': 0}
+[1.751362] (-) EventReactorShutdown: {}

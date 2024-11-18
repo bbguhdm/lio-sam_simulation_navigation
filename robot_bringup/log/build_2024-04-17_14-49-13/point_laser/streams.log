@@ -1,0 +1,89 @@
+[0.036s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser -- -j24 -l24
+[0.074s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.206s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.272s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.275s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.283s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.296s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.304s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.333s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.334s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.349s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.429s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.494s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.570s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.590s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.910s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.916s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.916s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.006s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.013s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.019s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.113s] -- Found Qhull version 8.0.2
+[1.202s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.286s] -- looking for PCL_COMMON
+[1.286s] -- looking for PCL_KDTREE
+[1.287s] -- looking for PCL_OCTREE
+[1.287s] -- looking for PCL_SEARCH
+[1.288s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.288s] -- looking for PCL_FILTERS
+[1.288s] -- looking for PCL_2D
+[1.288s] -- looking for PCL_GEOMETRY
+[1.289s] -- looking for PCL_IO
+[1.289s] -- looking for PCL_FEATURES
+[1.289s] -- looking for PCL_ML
+[1.289s] -- looking for PCL_SEGMENTATION
+[1.289s] -- looking for PCL_VISUALIZATION
+[1.289s] -- looking for PCL_SURFACE
+[1.290s] -- looking for PCL_REGISTRATION
+[1.290s] -- looking for PCL_KEYPOINTS
+[1.290s] -- looking for PCL_TRACKING
+[1.290s] -- looking for PCL_RECOGNITION
+[1.290s] -- looking for PCL_STEREO
+[1.290s] -- looking for PCL_APPS
+[1.290s] -- looking for PCL_IN_HAND_SCANNER
+[1.291s] -- looking for PCL_MODELER
+[1.291s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.291s] -- looking for PCL_OUTOFCORE
+[1.291s] -- looking for PCL_PEOPLE
+[1.291s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.374s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.386s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.387s] -- Configured cppcheck include dirs: 
+[1.387s] -- Configured cppcheck exclude dirs and/or files: 
+[1.388s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.390s] -- Added test 'lint_cmake' to check CMake code style
+[1.391s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.399s] -- Added test 'uncrustify' to check C / C++ code style
+[1.399s] -- Configured uncrustify additional arguments: 
+[1.400s] -- Added test 'xmllint' to check XML markup files
+[1.401s] -- Configuring done
+[1.414s] -- Generating done
+[1.415s] -- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser
+[1.454s] [35m[1mConsolidate compiler generated dependencies of target point_laser[0m
+[1.490s] [100%] Built target point_laser
+[1.504s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser -- -j24 -l24
+[1.558s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser
+[1.561s] -- Install configuration: ""
+[1.561s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/lib/point_laser/point_laser
+[1.561s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/launch
+[1.561s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/launch/bringup.launch.py
+[1.561s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/urdf
+[1.561s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/urdf/robo_car.urdf.xacro
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/package_run_dependencies/point_laser
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/parent_prefix_path/point_laser
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/ament_prefix_path.sh
+[1.562s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/ament_prefix_path.dsv
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/path.sh
+[1.562s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/path.dsv
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.bash
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.sh
+[1.562s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.zsh
+[1.563s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.dsv
+[1.563s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.dsv
+[1.563s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/packages/point_laser
+[1.563s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.563s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/point_laserConfig.cmake
+[1.563s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/point_laserConfig-version.cmake
+[1.563s] -- Up-to-date: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.xml
+[1.564s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser

@@ -1,0 +1,62 @@
+[0.035s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24
+[0.074s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.176s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.215s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.218s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.247s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.277s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.277s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.292s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.374s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.438s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[0.519s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.541s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.854s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.859s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.859s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[0.952s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.957s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.963s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.082s] -- Found Qhull version 8.0.2
+[1.207s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.326s] -- looking for PCL_COMMON
+[1.326s] -- looking for PCL_KDTREE
+[1.326s] -- looking for PCL_OCTREE
+[1.326s] -- looking for PCL_SEARCH
+[1.327s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.327s] -- looking for PCL_FILTERS
+[1.327s] -- looking for PCL_2D
+[1.327s] -- looking for PCL_GEOMETRY
+[1.328s] -- looking for PCL_IO
+[1.328s] -- looking for PCL_FEATURES
+[1.328s] -- looking for PCL_ML
+[1.328s] -- looking for PCL_SEGMENTATION
+[1.329s] -- looking for PCL_VISUALIZATION
+[1.329s] -- looking for PCL_SURFACE
+[1.330s] -- looking for PCL_REGISTRATION
+[1.330s] -- looking for PCL_KEYPOINTS
+[1.330s] -- looking for PCL_TRACKING
+[1.330s] -- looking for PCL_RECOGNITION
+[1.331s] -- looking for PCL_STEREO
+[1.331s] -- looking for PCL_APPS
+[1.332s] -- looking for PCL_IN_HAND_SCANNER
+[1.332s] -- looking for PCL_MODELER
+[1.332s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.332s] -- looking for PCL_OUTOFCORE
+[1.333s] -- looking for PCL_PEOPLE
+[1.394s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.452s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.453s]   ament_package_xml() package name 'robot_bringup' in '/package.xml' does not
+[1.453s]   match current PROJECT_NAME 'point_laser'.  You must call project() with the
+[1.453s]   same package name before.
+[1.453s] Call Stack (most recent call first):
+[1.453s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.453s]   CMakeLists.txt:42 (ament_lint_auto_find_test_dependencies)
+[1.453s] 
+[1.453s] [0m
+[1.453s] -- Configuring incomplete, errors occurred!
+[1.453s] See also "/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup/CMakeFiles/CMakeOutput.log".
+[1.463s] gmake: *** [Makefile:267：cmake_check_build_system] 错误 1
+[1.466s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24

@@ -1,0 +1,180 @@
+[0.000000] (-) TimerEvent: {}
+[0.000222] (robot_bringup) JobQueued: {'identifier': 'robot_bringup', 'dependencies': OrderedDict()}
+[0.000273] (robot_bringup) JobStarted: {'identifier': 'robot_bringup'}
+[0.033437] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'cmake'}
+[0.034345] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'build'}
+[0.034439] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup', '--', '-j24', '-l24'], 'cwd': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4685'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2313,unix/robot:/tmp/.ICE-unix/2313'), ('INVOCATION_ID', 'bcd12c4452a240c2bab50566764f537e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-93d9f94c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[0.074536] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099453] (-) TimerEvent: {}
+[0.200071] (-) TimerEvent: {}
+[0.202723] (robot_bringup) StdoutLine: {'line': b'-- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.248476] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.251782] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.260048] (robot_bringup) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.271796] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.279366] (robot_bringup) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.300250] (-) TimerEvent: {}
+[0.307891] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.308563] (robot_bringup) StdoutLine: {'line': b'-- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)\n'}
+[0.323104] (robot_bringup) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_cyclonedds_cpp' as default\n"}
+[0.400469] (-) TimerEvent: {}
+[0.401085] (robot_bringup) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[0.463541] (robot_bringup) StdoutLine: {'line': b'-- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)\n'}
+[0.500654] (-) TimerEvent: {}
+[0.537786] (robot_bringup) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.556686] (robot_bringup) StdoutLine: {'line': b'-- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)\n'}
+[0.600786] (-) TimerEvent: {}
+[0.701238] (-) TimerEvent: {}
+[0.801737] (-) TimerEvent: {}
+[0.839496] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.844365] (robot_bringup) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[0.844560] (robot_bringup) StderrLine: {'line': b'\x1b[0m** WARNING ** io features related to pcap will be disabled\x1b[0m\n'}
+[0.902175] (-) TimerEvent: {}
+[0.932719] (robot_bringup) StdoutLine: {'line': b'-- Eigen found (include: /usr/include/eigen3, version: 3.4.0)\n'}
+[0.937856] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[0.942641] (robot_bringup) StdoutLine: {'line': b'-- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)\n'}
+[1.002560] (-) TimerEvent: {}
+[1.024824] (robot_bringup) StdoutLine: {'line': b'-- Found Qhull version 8.0.2\n'}
+[1.102732] (-) TimerEvent: {}
+[1.110675] (robot_bringup) StdoutLine: {'line': b'-- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)\n'}
+[1.192087] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_COMMON\n'}
+[1.192667] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_KDTREE\n'}
+[1.193432] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_OCTREE\n'}
+[1.193662] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SEARCH\n'}
+[1.194021] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SAMPLE_CONSENSUS\n'}
+[1.194196] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_FILTERS\n'}
+[1.194345] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_2D\n'}
+[1.194491] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_GEOMETRY\n'}
+[1.194630] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_IO\n'}
+[1.194770] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_FEATURES\n'}
+[1.194910] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_ML\n'}
+[1.195056] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SEGMENTATION\n'}
+[1.195198] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_VISUALIZATION\n'}
+[1.195335] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_SURFACE\n'}
+[1.195528] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_REGISTRATION\n'}
+[1.195769] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_KEYPOINTS\n'}
+[1.195920] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_TRACKING\n'}
+[1.196125] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_RECOGNITION\n'}
+[1.196266] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_STEREO\n'}
+[1.196403] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_APPS\n'}
+[1.196564] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_IN_HAND_SCANNER\n'}
+[1.196691] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_MODELER\n'}
+[1.196818] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_POINT_CLOUD_EDITOR\n'}
+[1.196953] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_OUTOFCORE\n'}
+[1.197091] (robot_bringup) StdoutLine: {'line': b'-- looking for PCL_PEOPLE\n'}
+[1.197277] (robot_bringup) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[1.202807] (-) TimerEvent: {}
+[1.286875] (robot_bringup) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.298900] (robot_bringup) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.299239] (robot_bringup) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.299422] (robot_bringup) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.300326] (robot_bringup) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.302543] (robot_bringup) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.302870] (-) TimerEvent: {}
+[1.303737] (robot_bringup) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[1.312158] (robot_bringup) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.312500] (robot_bringup) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.313353] (robot_bringup) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.313939] (robot_bringup) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.327094] (robot_bringup) StdoutLine: {'line': b'-- Generating done\n'}
+[1.328391] (robot_bringup) StdoutLine: {'line': b'-- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup\n'}
+[1.373208] (robot_bringup) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/point_laser.dir/src/point_laser.cpp.o\x1b[0m\n'}
+[1.403051] (-) TimerEvent: {}
+[1.503448] (-) TimerEvent: {}
+[1.603890] (-) TimerEvent: {}
+[1.704433] (-) TimerEvent: {}
+[1.804971] (-) TimerEvent: {}
+[1.905517] (-) TimerEvent: {}
+[2.006088] (-) TimerEvent: {}
+[2.106628] (-) TimerEvent: {}
+[2.207167] (-) TimerEvent: {}
+[2.307755] (-) TimerEvent: {}
+[2.408307] (-) TimerEvent: {}
+[2.508860] (-) TimerEvent: {}
+[2.609434] (-) TimerEvent: {}
+[2.710014] (-) TimerEvent: {}
+[2.810586] (-) TimerEvent: {}
+[2.911131] (-) TimerEvent: {}
+[3.011698] (-) TimerEvent: {}
+[3.112255] (-) TimerEvent: {}
+[3.212809] (-) TimerEvent: {}
+[3.313360] (-) TimerEvent: {}
+[3.413957] (-) TimerEvent: {}
+[3.514525] (-) TimerEvent: {}
+[3.615070] (-) TimerEvent: {}
+[3.715612] (-) TimerEvent: {}
+[3.752941] (robot_bringup) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_laser.cpp:43:22:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kextra \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic\x07-Wpedantic\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.753339] (robot_bringup) StderrLine: {'line': b'   43 |     PCL_ADD_INTENSITY\x1b[01;35m\x1b[K;\x1b[m\x1b[K\n'}
+[3.753513] (robot_bringup) StderrLine: {'line': b'      |                      \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.753665] (robot_bringup) StderrLine: {'line': b'      |                      \x1b[31m\x1b[K-\x1b[m\x1b[K\n'}
+[3.815809] (-) TimerEvent: {}
+[3.916387] (-) TimerEvent: {}
+[4.016949] (-) TimerEvent: {}
+[4.117515] (-) TimerEvent: {}
+[4.218093] (-) TimerEvent: {}
+[4.318644] (-) TimerEvent: {}
+[4.419213] (-) TimerEvent: {}
+[4.519764] (-) TimerEvent: {}
+[4.620323] (-) TimerEvent: {}
+[4.720865] (-) TimerEvent: {}
+[4.821419] (-) TimerEvent: {}
+[4.921901] (-) TimerEvent: {}
+[5.022339] (-) TimerEvent: {}
+[5.122934] (-) TimerEvent: {}
+[5.223489] (-) TimerEvent: {}
+[5.324036] (-) TimerEvent: {}
+[5.424601] (-) TimerEvent: {}
+[5.525148] (-) TimerEvent: {}
+[5.625731] (-) TimerEvent: {}
+[5.726264] (-) TimerEvent: {}
+[5.826824] (-) TimerEvent: {}
+[5.927340] (-) TimerEvent: {}
+[6.027682] (-) TimerEvent: {}
+[6.128203] (-) TimerEvent: {}
+[6.228677] (-) TimerEvent: {}
+[6.329214] (-) TimerEvent: {}
+[6.429784] (-) TimerEvent: {}
+[6.530334] (-) TimerEvent: {}
+[6.630815] (-) TimerEvent: {}
+[6.731368] (-) TimerEvent: {}
+[6.831867] (-) TimerEvent: {}
+[6.932401] (-) TimerEvent: {}
+[7.032947] (-) TimerEvent: {}
+[7.133536] (-) TimerEvent: {}
+[7.152271] (robot_bringup) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable point_laser\x1b[0m\n'}
+[7.233751] (-) TimerEvent: {}
+[7.334300] (-) TimerEvent: {}
+[7.434839] (-) TimerEvent: {}
+[7.535019] (robot_bringup) StdoutLine: {'line': b'[100%] Built target point_laser\n'}
+[7.535333] (-) TimerEvent: {}
+[7.551900] (robot_bringup) CommandEnded: {'returncode': 0}
+[7.591541] (robot_bringup) JobProgress: {'identifier': 'robot_bringup', 'progress': 'install'}
+[7.604223] (robot_bringup) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup'], 'cwd': '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1737'), ('SYSTEMD_EXEC_PID', '2365'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '4685'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24073'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2313,unix/robot:/tmp/.ICE-unix/2313'), ('INVOCATION_ID', 'bcd12c4452a240c2bab50566764f537e'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-93d9f94c62.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser:/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup:/opt/ros/humble')]), 'shell': False}
+[7.612042] (robot_bringup) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.612571] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/lib/robot_bringup/point_laser\n'}
+[7.616001] (robot_bringup) StdoutLine: {'line': b'-- Set runtime path of "/home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/lib/robot_bringup/point_laser" to ""\n'}
+[7.616663] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/launch\n'}
+[7.616835] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py\n'}
+[7.616915] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/urdf\n'}
+[7.617136] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/urdf/robo_car.urdf.xacro\n'}
+[7.617210] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup\n'}
+[7.617354] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup\n'}
+[7.617430] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh\n'}
+[7.617507] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv\n'}
+[7.617580] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/path.sh\n'}
+[7.617655] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/environment/path.dsv\n'}
+[7.617929] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.bash\n'}
+[7.618050] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.sh\n'}
+[7.618131] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.zsh\n'}
+[7.618206] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/local_setup.dsv\n'}
+[7.618275] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/package.dsv\n'}
+[7.618345] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup\n'}
+[7.618418] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[7.618497] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake\n'}
+[7.618566] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake\n'}
+[7.618643] (robot_bringup) StdoutLine: {'line': b'-- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/robot_bringup/share/robot_bringup/package.xml\n'}
+[7.620032] (robot_bringup) CommandEnded: {'returncode': 0}
+[7.635738] (-) TimerEvent: {}
+[7.736174] (-) TimerEvent: {}
+[7.791829] (robot_bringup) JobEnded: {'identifier': 'robot_bringup', 'rc': 0}
+[7.792726] (-) EventReactorShutdown: {}

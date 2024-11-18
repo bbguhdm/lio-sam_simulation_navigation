@@ -1,0 +1,45 @@
+[0.030s] Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[0.094s] [  8%] Built target lio_sam__rosidl_generator_c
+[0.100s] [ 10%] Built target lio_sam__cpp
+[0.105s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[0.106s] [ 19%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.107s] [ 27%] Built target lio_sam__rosidl_typesupport_c
+[0.114s] [ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.114s] [ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.122s] [ 53%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.123s] [ 61%] Built target lio_sam__rosidl_typesupport_cpp
+[0.142s] [ 61%] Built target lio_sam
+[0.153s] [ 63%] Built target lio_sam__py
+[0.166s] [ 68%] Built target lio_sam_imuPreintegration
+[0.167s] [ 70%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[0.167s] [ 76%] Built target lio_sam__rosidl_generator_py
+[0.169s] [ 80%] Built target lio_sam_featureExtraction
+[0.177s] [ 85%] Built target lio_sam_imageProjection
+[0.179s] [ 89%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.179s] [ 93%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.179s] [ 97%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.224s] running egg_info
+[0.225s] writing lio_sam.egg-info/PKG-INFO
+[0.225s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.225s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.226s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.226s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.241s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[1.342s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+[1.342s]                  from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[1.342s] [01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.342s]    32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+[1.342s]       |  [01;35m[K^~~~~~~[m[K
+[1.359s] In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+[1.359s]                  from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[1.359s] [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+[1.359s]    35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+[1.359s]       |  [01;35m[K^~~~~~~[m[K
+[9.730s] [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid mapOptimization::laserCloudInfoHandler(lio_sam::msg::CloudInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[9.731s] [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:321:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kasdsf[m[K’ was not declared in this scope
+[9.731s]   321 |         [01;31m[Kasdsf[m[K
+[9.731s]       |         [01;31m[K^~~~~[m[K
+[30.985s] gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76：CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 错误 1
+[30.986s] gmake[1]: *** [CMakeFiles/Makefile2:684：CMakeFiles/lio_sam_mapOptimization.dir/all] 错误 2
+[30.986s] gmake: *** [Makefile:146：all] 错误 2
+[30.992s] Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24

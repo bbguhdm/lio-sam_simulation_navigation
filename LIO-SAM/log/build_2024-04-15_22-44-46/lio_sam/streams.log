@@ -1,0 +1,32 @@
+[0.055s] Invoking command in '/home/hdm/LIO-SAM/build/lio_sam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24
+[0.117s] [  8%] Built target lio_sam__rosidl_generator_c
+[0.118s] [ 10%] Built target lio_sam__cpp
+[0.126s] [ 10%] Built target ament_cmake_python_copy_lio_sam
+[0.136s] [ 34%] Built target lio_sam__rosidl_typesupport_introspection_c
+[0.136s] [ 36%] Built target lio_sam__rosidl_typesupport_c
+[0.136s] [ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[0.138s] [ 51%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[0.138s] [ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[0.138s] [ 61%] Built target lio_sam__rosidl_typesupport_cpp
+[0.157s] [ 61%] Built target lio_sam
+[0.177s] [ 63%] Built target lio_sam__py
+[0.180s] [35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[0.193s] [ 68%] Built target lio_sam_featureExtraction
+[0.194s] [ 72%] Built target lio_sam_imageProjection
+[0.198s] [ 76%] Built target lio_sam_imuPreintegration
+[0.200s] [ 82%] Built target lio_sam__rosidl_generator_py
+[0.221s] [ 91%] Built target lio_sam__rosidl_typesupport_c__pyext
+[0.221s] [ 91%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+[0.221s] [ 93%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[0.222s] [ 97%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[0.364s] running egg_info
+[0.365s] writing lio_sam.egg-info/PKG-INFO
+[0.365s] writing dependency_links to lio_sam.egg-info/dependency_links.txt
+[0.365s] writing top-level names to lio_sam.egg-info/top_level.txt
+[0.369s] reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.370s] writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[0.407s] [ 97%] Built target ament_cmake_python_build_lio_sam_egg
+[2.085s] gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76: CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 中断
+[2.086s] gmake[1]: *** [CMakeFiles/Makefile2:684: CMakeFiles/lio_sam_mapOptimization.dir/all] 中断
+[2.086s] gmake: *** [Makefile:146: all] 中断
+[2.099s] Invoked command in '/home/hdm/LIO-SAM/build/lio_sam' returned '-2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/LIO-SAM/build/lio_sam -- -j24 -l24

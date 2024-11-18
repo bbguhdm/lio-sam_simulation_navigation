@@ -1,0 +1,375 @@
+[0.000000] (-) TimerEvent: {}
+[0.000234] (lio_sam) JobQueued: {'identifier': 'lio_sam', 'dependencies': OrderedDict()}
+[0.000346] (lio_sam) JobStarted: {'identifier': 'lio_sam'}
+[0.033217] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'cmake'}
+[0.034352] (lio_sam) JobProgress: {'identifier': 'lio_sam', 'progress': 'build'}
+[0.034448] (lio_sam) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/hdm/LIO-SAM/build/lio_sam', '--', '-j24', '-l24'], 'cwd': '/home/hdm/LIO-SAM/build/lio_sam', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:zh'), ('USER', 'hdm'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/hdm/LIO-SAM/install/lio_sam/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/hdm'), ('CHROME_DESKTOP', 'code-url-handler.desktop'), ('TERM_PROGRAM_VERSION', '1.87.2'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '1727'), ('SYSTEMD_EXEC_PID', '2382'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '41160'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/hdm/LIO-SAM/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'fcitx'), ('LOGNAME', 'hdm'), ('JOURNAL_STREAM', '8:24804'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'hdm'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/home/hdm/.local/bin:/opt/ros/humble/bin:/home/hdm/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/robot:@/tmp/.ICE-unix/2354,unix/robot:/tmp/.ICE-unix/2354'), ('INVOCATION_ID', '57f73afacbfa45fd93db5400dc3f4ee6'), ('XDG_MENU_PREFIX', 'gnome-'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':0'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('RMW_IMPLEMENTATION', 'rmw_cyclonedds_cpp'), ('XMODIFIERS', '@im=fcitx'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-668169d3d9.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/hdm/LIO-SAM/install/lio_sam:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'fcitx'), ('PWD', '/home/hdm/LIO-SAM/build/lio_sam'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('CLUTTER_IM_MODULE', 'fcitx'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/hdm/LIO-SAM/install/lio_sam/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/hdm/LIO-SAM/install/lio_sam:/opt/ros/humble')]), 'shell': False}
+[0.099404] (-) TimerEvent: {}
+[0.102906] (lio_sam) StdoutLine: {'line': b'[  2%] Built target lio_sam__cpp\n'}
+[0.107634] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target lio_sam__rosidl_generator_c\n'}
+[0.110942] (lio_sam) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_copy_lio_sam\n'}
+[0.118209] (lio_sam) StdoutLine: {'line': b'[ 19%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp\n'}
+[0.120827] (lio_sam) StdoutLine: {'line': b'[ 27%] Built target lio_sam__rosidl_typesupport_cpp\n'}
+[0.121317] (lio_sam) StdoutLine: {'line': b'[ 36%] Built target lio_sam__rosidl_typesupport_c\n'}
+[0.122166] (lio_sam) StdoutLine: {'line': b'[ 44%] Built target lio_sam__rosidl_typesupport_introspection_c\n'}
+[0.124686] (lio_sam) StdoutLine: {'line': b'[ 53%] Built target lio_sam__rosidl_typesupport_fastrtps_c\n'}
+[0.131401] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp\n'}
+[0.149923] (lio_sam) StdoutLine: {'line': b'[ 61%] Built target lio_sam\n'}
+[0.163057] (lio_sam) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization\x1b[0m\n'}
+[0.167627] (lio_sam) StdoutLine: {'line': b'[ 63%] Built target lio_sam__py\n'}
+[0.173408] (lio_sam) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o\x1b[0m\n'}
+[0.173691] (lio_sam) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o\x1b[0m\n'}
+[0.180505] (lio_sam) StdoutLine: {'line': b'[ 74%] Built target lio_sam__rosidl_generator_py\n'}
+[0.188687] (lio_sam) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o\x1b[0m\n'}
+[0.191024] (lio_sam) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o\x1b[0m\n'}
+[0.192861] (lio_sam) StdoutLine: {'line': b'[ 87%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.193103] (lio_sam) StdoutLine: {'line': b'[ 87%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext\n'}
+[0.193382] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target lio_sam__rosidl_typesupport_c__pyext\n'}
+[0.199604] (-) TimerEvent: {}
+[0.240127] (lio_sam) StdoutLine: {'line': b'running egg_info\n'}
+[0.240488] (lio_sam) StdoutLine: {'line': b'writing lio_sam.egg-info/PKG-INFO\n'}
+[0.240674] (lio_sam) StdoutLine: {'line': b'writing dependency_links to lio_sam.egg-info/dependency_links.txt\n'}
+[0.240815] (lio_sam) StdoutLine: {'line': b'writing top-level names to lio_sam.egg-info/top_level.txt\n'}
+[0.242215] (lio_sam) StdoutLine: {'line': b"reading manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.242525] (lio_sam) StdoutLine: {'line': b"writing manifest file 'lio_sam.egg-info/SOURCES.txt'\n"}
+[0.257970] (lio_sam) StdoutLine: {'line': b'[ 91%] Built target ament_cmake_python_build_lio_sam_egg\n'}
+[0.299845] (-) TimerEvent: {}
+[0.400469] (-) TimerEvent: {}
+[0.501035] (-) TimerEvent: {}
+[0.601511] (-) TimerEvent: {}
+[0.701809] (-) TimerEvent: {}
+[0.802105] (-) TimerEvent: {}
+[0.902390] (-) TimerEvent: {}
+[1.002680] (-) TimerEvent: {}
+[1.102970] (-) TimerEvent: {}
+[1.203269] (-) TimerEvent: {}
+[1.303584] (-) TimerEvent: {}
+[1.321834] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40\x1b[m\x1b[K,\n'}
+[1.322003] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/featureExtraction.cpp:1\x1b[m\x1b[K:\n'}
+[1.322075] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.322138] (lio_sam) StderrLine: {'line': b'   32 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead\n'}
+[1.322196] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.322252] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40\x1b[m\x1b[K,\n'}
+[1.322309] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/imuPreintegration.cpp:1\x1b[m\x1b[K:\n'}
+[1.322363] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.322420] (lio_sam) StderrLine: {'line': b'   32 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead\n'}
+[1.322475] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.327806] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41\x1b[m\x1b[K,\n'}
+[1.327964] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/featureExtraction.cpp:1\x1b[m\x1b[K:\n'}
+[1.328029] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.328092] (lio_sam) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.328150] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.334238] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40\x1b[m\x1b[K,\n'}
+[1.334413] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1\x1b[m\x1b[K:\n'}
+[1.334478] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.334540] (lio_sam) StderrLine: {'line': b'   32 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead\n'}
+[1.334601] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.342257] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41\x1b[m\x1b[K,\n'}
+[1.342424] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/imuPreintegration.cpp:1\x1b[m\x1b[K:\n'}
+[1.342488] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.342549] (lio_sam) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.342607] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.347662] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41\x1b[m\x1b[K,\n'}
+[1.347819] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1\x1b[m\x1b[K:\n'}
+[1.347883] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.347950] (lio_sam) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.348008] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.377063] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40\x1b[m\x1b[K,\n'}
+[1.377584] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[1.377874] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.378201] (lio_sam) StderrLine: {'line': b'   32 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead\n'}
+[1.378488] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.380494] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41\x1b[m\x1b[K,\n'}
+[1.380929] (lio_sam) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[1.381234] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp\x07-Wcpp\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[1.381519] (lio_sam) StderrLine: {'line': b'   35 | #\x1b[01;35m\x1b[Kwarning\x1b[m\x1b[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead\n'}
+[1.381781] (lio_sam) StderrLine: {'line': b'      |  \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[1.403763] (-) TimerEvent: {}
+[1.504102] (-) TimerEvent: {}
+[1.604355] (-) TimerEvent: {}
+[1.704613] (-) TimerEvent: {}
+[1.804905] (-) TimerEvent: {}
+[1.905150] (-) TimerEvent: {}
+[2.005399] (-) TimerEvent: {}
+[2.105693] (-) TimerEvent: {}
+[2.205939] (-) TimerEvent: {}
+[2.306229] (-) TimerEvent: {}
+[2.406475] (-) TimerEvent: {}
+[2.506731] (-) TimerEvent: {}
+[2.606986] (-) TimerEvent: {}
+[2.707271] (-) TimerEvent: {}
+[2.807553] (-) TimerEvent: {}
+[2.907844] (-) TimerEvent: {}
+[3.008141] (-) TimerEvent: {}
+[3.108395] (-) TimerEvent: {}
+[3.208647] (-) TimerEvent: {}
+[3.309006] (-) TimerEvent: {}
+[3.409341] (-) TimerEvent: {}
+[3.509591] (-) TimerEvent: {}
+[3.609883] (-) TimerEvent: {}
+[3.710128] (-) TimerEvent: {}
+[3.810413] (-) TimerEvent: {}
+[3.910660] (-) TimerEvent: {}
+[4.010910] (-) TimerEvent: {}
+[4.111214] (-) TimerEvent: {}
+[4.211458] (-) TimerEvent: {}
+[4.311740] (-) TimerEvent: {}
+[4.411991] (-) TimerEvent: {}
+[4.512253] (-) TimerEvent: {}
+[4.612555] (-) TimerEvent: {}
+[4.712880] (-) TimerEvent: {}
+[4.797331] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/featureExtraction.cpp:1\x1b[m\x1b[K:\n'}
+[4.797502] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu ParamServer::imuConverter(const Imu&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.797573] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:331:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq_final\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.797632] (lio_sam) StderrLine: {'line': b'  331 |         \x1b[01;31m\x1b[Kq_final\x1b[m\x1b[K = extQRPY;\n'}
+[4.797688] (lio_sam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.812987] (-) TimerEvent: {}
+[4.878131] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1\x1b[m\x1b[K:\n'}
+[4.878303] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu ParamServer::imuConverter(const Imu&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.878375] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:331:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq_final\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.878447] (lio_sam) StderrLine: {'line': b'  331 |         \x1b[01;31m\x1b[Kq_final\x1b[m\x1b[K = extQRPY;\n'}
+[4.878506] (lio_sam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[4.913076] (-) TimerEvent: {}
+[4.992206] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1\x1b[m\x1b[K:\n'}
+[4.992402] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu ParamServer::imuConverter(const Imu&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.992469] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:331:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq_final\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.992529] (lio_sam) StderrLine: {'line': b'  331 |         \x1b[01;31m\x1b[Kq_final\x1b[m\x1b[K = extQRPY;\n'}
+[4.992586] (lio_sam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[5.013188] (-) TimerEvent: {}
+[5.113550] (-) TimerEvent: {}
+[5.213868] (-) TimerEvent: {}
+[5.314184] (-) TimerEvent: {}
+[5.414505] (-) TimerEvent: {}
+[5.514804] (-) TimerEvent: {}
+[5.615059] (-) TimerEvent: {}
+[5.715320] (-) TimerEvent: {}
+[5.815603] (-) TimerEvent: {}
+[5.915986] (-) TimerEvent: {}
+[6.016589] (-) TimerEvent: {}
+[6.117181] (-) TimerEvent: {}
+[6.217771] (-) TimerEvent: {}
+[6.318154] (-) TimerEvent: {}
+[6.418788] (-) TimerEvent: {}
+[6.519447] (-) TimerEvent: {}
+[6.619780] (-) TimerEvent: {}
+[6.671160] (lio_sam) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/hdm/LIO-SAM/src/imuPreintegration.cpp:1\x1b[m\x1b[K:\n'}
+[6.671638] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Ksensor_msgs::msg::Imu ParamServer::imuConverter(const Imu&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.671963] (lio_sam) StderrLine: {'line': b'\x1b[01m\x1b[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:331:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kq_final\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[6.672238] (lio_sam) StderrLine: {'line': b'  331 |         \x1b[01;31m\x1b[Kq_final\x1b[m\x1b[K = extQRPY;\n'}
+[6.672500] (lio_sam) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[6.719936] (-) TimerEvent: {}
+[6.820409] (-) TimerEvent: {}
+[6.920724] (-) TimerEvent: {}
+[7.021339] (-) TimerEvent: {}
+[7.121901] (-) TimerEvent: {}
+[7.222450] (-) TimerEvent: {}
+[7.323072] (-) TimerEvent: {}
+[7.423597] (-) TimerEvent: {}
+[7.523910] (-) TimerEvent: {}
+[7.624447] (-) TimerEvent: {}
+[7.724989] (-) TimerEvent: {}
+[7.825309] (-) TimerEvent: {}
+[7.925765] (-) TimerEvent: {}
+[8.026148] (-) TimerEvent: {}
+[8.126728] (-) TimerEvent: {}
+[8.227179] (-) TimerEvent: {}
+[8.327729] (-) TimerEvent: {}
+[8.428059] (-) TimerEvent: {}
+[8.528397] (-) TimerEvent: {}
+[8.628924] (-) TimerEvent: {}
+[8.729248] (-) TimerEvent: {}
+[8.829564] (-) TimerEvent: {}
+[8.929918] (-) TimerEvent: {}
+[9.030199] (-) TimerEvent: {}
+[9.130547] (-) TimerEvent: {}
+[9.230855] (-) TimerEvent: {}
+[9.331168] (-) TimerEvent: {}
+[9.431498] (-) TimerEvent: {}
+[9.531840] (-) TimerEvent: {}
+[9.632273] (-) TimerEvent: {}
+[9.732813] (-) TimerEvent: {}
+[9.833252] (-) TimerEvent: {}
+[9.933802] (-) TimerEvent: {}
+[10.034412] (-) TimerEvent: {}
+[10.134898] (-) TimerEvent: {}
+[10.235250] (-) TimerEvent: {}
+[10.258375] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_featureExtraction.dir/build.make:76\xef\xbc\x9aCMakeFiles/lio_sam_featureExtraction.dir/src/featureExtraction.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[10.258744] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:600\xef\xbc\x9aCMakeFiles/lio_sam_featureExtraction.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[10.258866] (lio_sam) StderrLine: {'line': b'gmake[1]: *** \xe6\xad\xa3\xe5\x9c\xa8\xe7\xad\x89\xe5\xbe\x85\xe6\x9c\xaa\xe5\xae\x8c\xe6\x88\x90\xe7\x9a\x84\xe4\xbb\xbb\xe5\x8a\xa1....\n'}
+[10.335371] (-) TimerEvent: {}
+[10.435756] (-) TimerEvent: {}
+[10.536174] (-) TimerEvent: {}
+[10.636633] (-) TimerEvent: {}
+[10.737037] (-) TimerEvent: {}
+[10.837600] (-) TimerEvent: {}
+[10.938213] (-) TimerEvent: {}
+[11.038774] (-) TimerEvent: {}
+[11.139331] (-) TimerEvent: {}
+[11.239944] (-) TimerEvent: {}
+[11.340240] (-) TimerEvent: {}
+[11.440712] (-) TimerEvent: {}
+[11.541058] (-) TimerEvent: {}
+[11.641354] (-) TimerEvent: {}
+[11.741818] (-) TimerEvent: {}
+[11.842308] (-) TimerEvent: {}
+[11.942737] (-) TimerEvent: {}
+[12.043101] (-) TimerEvent: {}
+[12.143616] (-) TimerEvent: {}
+[12.244015] (-) TimerEvent: {}
+[12.344620] (-) TimerEvent: {}
+[12.445267] (-) TimerEvent: {}
+[12.545896] (-) TimerEvent: {}
+[12.646559] (-) TimerEvent: {}
+[12.747233] (-) TimerEvent: {}
+[12.847858] (-) TimerEvent: {}
+[12.948489] (-) TimerEvent: {}
+[13.049194] (-) TimerEvent: {}
+[13.149874] (-) TimerEvent: {}
+[13.250351] (-) TimerEvent: {}
+[13.350916] (-) TimerEvent: {}
+[13.451497] (-) TimerEvent: {}
+[13.552114] (-) TimerEvent: {}
+[13.652751] (-) TimerEvent: {}
+[13.753401] (-) TimerEvent: {}
+[13.853954] (-) TimerEvent: {}
+[13.954475] (-) TimerEvent: {}
+[14.055010] (-) TimerEvent: {}
+[14.155540] (-) TimerEvent: {}
+[14.255914] (-) TimerEvent: {}
+[14.356588] (-) TimerEvent: {}
+[14.431412] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76\xef\xbc\x9aCMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[14.431931] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:628\xef\xbc\x9aCMakeFiles/lio_sam_imageProjection.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[14.456752] (-) TimerEvent: {}
+[14.557369] (-) TimerEvent: {}
+[14.657923] (-) TimerEvent: {}
+[14.758504] (-) TimerEvent: {}
+[14.859000] (-) TimerEvent: {}
+[14.959325] (-) TimerEvent: {}
+[15.059762] (-) TimerEvent: {}
+[15.160185] (-) TimerEvent: {}
+[15.260533] (-) TimerEvent: {}
+[15.361095] (-) TimerEvent: {}
+[15.461632] (-) TimerEvent: {}
+[15.561963] (-) TimerEvent: {}
+[15.662465] (-) TimerEvent: {}
+[15.762891] (-) TimerEvent: {}
+[15.863365] (-) TimerEvent: {}
+[15.963922] (-) TimerEvent: {}
+[16.064531] (-) TimerEvent: {}
+[16.165219] (-) TimerEvent: {}
+[16.265705] (-) TimerEvent: {}
+[16.365989] (-) TimerEvent: {}
+[16.466324] (-) TimerEvent: {}
+[16.566964] (-) TimerEvent: {}
+[16.667478] (-) TimerEvent: {}
+[16.767769] (-) TimerEvent: {}
+[16.868048] (-) TimerEvent: {}
+[16.968286] (-) TimerEvent: {}
+[17.068517] (-) TimerEvent: {}
+[17.168768] (-) TimerEvent: {}
+[17.268994] (-) TimerEvent: {}
+[17.369289] (-) TimerEvent: {}
+[17.469596] (-) TimerEvent: {}
+[17.569839] (-) TimerEvent: {}
+[17.670083] (-) TimerEvent: {}
+[17.770459] (-) TimerEvent: {}
+[17.871074] (-) TimerEvent: {}
+[17.971592] (-) TimerEvent: {}
+[18.071933] (-) TimerEvent: {}
+[18.172206] (-) TimerEvent: {}
+[18.272517] (-) TimerEvent: {}
+[18.372847] (-) TimerEvent: {}
+[18.473449] (-) TimerEvent: {}
+[18.573975] (-) TimerEvent: {}
+[18.674278] (-) TimerEvent: {}
+[18.774559] (-) TimerEvent: {}
+[18.874839] (-) TimerEvent: {}
+[18.975146] (-) TimerEvent: {}
+[19.075391] (-) TimerEvent: {}
+[19.175630] (-) TimerEvent: {}
+[19.275896] (-) TimerEvent: {}
+[19.376145] (-) TimerEvent: {}
+[19.476412] (-) TimerEvent: {}
+[19.576679] (-) TimerEvent: {}
+[19.676941] (-) TimerEvent: {}
+[19.777184] (-) TimerEvent: {}
+[19.877469] (-) TimerEvent: {}
+[19.977716] (-) TimerEvent: {}
+[20.078016] (-) TimerEvent: {}
+[20.178260] (-) TimerEvent: {}
+[20.278496] (-) TimerEvent: {}
+[20.378711] (-) TimerEvent: {}
+[20.478924] (-) TimerEvent: {}
+[20.579237] (-) TimerEvent: {}
+[20.679461] (-) TimerEvent: {}
+[20.779719] (-) TimerEvent: {}
+[20.880044] (-) TimerEvent: {}
+[20.980356] (-) TimerEvent: {}
+[21.080640] (-) TimerEvent: {}
+[21.180888] (-) TimerEvent: {}
+[21.281133] (-) TimerEvent: {}
+[21.381389] (-) TimerEvent: {}
+[21.481677] (-) TimerEvent: {}
+[21.581923] (-) TimerEvent: {}
+[21.682197] (-) TimerEvent: {}
+[21.782454] (-) TimerEvent: {}
+[21.882794] (-) TimerEvent: {}
+[21.983354] (-) TimerEvent: {}
+[22.083900] (-) TimerEvent: {}
+[22.184395] (-) TimerEvent: {}
+[22.284989] (-) TimerEvent: {}
+[22.385600] (-) TimerEvent: {}
+[22.486126] (-) TimerEvent: {}
+[22.586658] (-) TimerEvent: {}
+[22.687217] (-) TimerEvent: {}
+[22.787747] (-) TimerEvent: {}
+[22.888220] (-) TimerEvent: {}
+[22.988484] (-) TimerEvent: {}
+[23.088771] (-) TimerEvent: {}
+[23.188988] (-) TimerEvent: {}
+[23.289212] (-) TimerEvent: {}
+[23.389454] (-) TimerEvent: {}
+[23.489662] (-) TimerEvent: {}
+[23.589915] (-) TimerEvent: {}
+[23.690210] (-) TimerEvent: {}
+[23.790419] (-) TimerEvent: {}
+[23.853729] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_imuPreintegration.dir/build.make:76\xef\xbc\x9aCMakeFiles/lio_sam_imuPreintegration.dir/src/imuPreintegration.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[23.854261] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:656\xef\xbc\x9aCMakeFiles/lio_sam_imuPreintegration.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[23.890608] (-) TimerEvent: {}
+[23.990964] (-) TimerEvent: {}
+[24.091437] (-) TimerEvent: {}
+[24.191985] (-) TimerEvent: {}
+[24.292300] (-) TimerEvent: {}
+[24.392529] (-) TimerEvent: {}
+[24.492773] (-) TimerEvent: {}
+[24.593066] (-) TimerEvent: {}
+[24.693280] (-) TimerEvent: {}
+[24.793527] (-) TimerEvent: {}
+[24.893789] (-) TimerEvent: {}
+[24.994057] (-) TimerEvent: {}
+[25.094365] (-) TimerEvent: {}
+[25.194644] (-) TimerEvent: {}
+[25.294894] (-) TimerEvent: {}
+[25.395169] (-) TimerEvent: {}
+[25.495588] (-) TimerEvent: {}
+[25.595889] (-) TimerEvent: {}
+[25.696231] (-) TimerEvent: {}
+[25.796503] (-) TimerEvent: {}
+[25.896793] (-) TimerEvent: {}
+[25.997043] (-) TimerEvent: {}
+[26.097277] (-) TimerEvent: {}
+[26.197577] (-) TimerEvent: {}
+[26.297869] (-) TimerEvent: {}
+[26.398166] (-) TimerEvent: {}
+[26.498415] (-) TimerEvent: {}
+[26.598746] (-) TimerEvent: {}
+[26.699024] (-) TimerEvent: {}
+[26.790311] (lio_sam) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76\xef\xbc\x9aCMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] \xe9\x94\x99\xe8\xaf\xaf 1\n'}
+[26.790740] (lio_sam) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:684\xef\xbc\x9aCMakeFiles/lio_sam_mapOptimization.dir/all] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[26.791188] (lio_sam) StderrLine: {'line': b'gmake: *** [Makefile:146\xef\xbc\x9aall] \xe9\x94\x99\xe8\xaf\xaf 2\n'}
+[26.794912] (lio_sam) CommandEnded: {'returncode': 2}
+[26.799127] (-) TimerEvent: {}
+[26.899547] (-) TimerEvent: {}
+[26.999754] (-) TimerEvent: {}
+[27.036764] (lio_sam) JobEnded: {'identifier': 'lio_sam', 'rc': 2}
+[27.047365] (-) EventReactorShutdown: {}

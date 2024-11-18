@@ -1,0 +1,9 @@
+[31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+  ament_package_xml() package name 'point_laser' in '/package.xml' does not
+  match current PROJECT_NAME 'robot_bringup'.  You must call project() with
+  the same package name before.
+Call Stack (most recent call first):
+  /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)
+  CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+
+[0m

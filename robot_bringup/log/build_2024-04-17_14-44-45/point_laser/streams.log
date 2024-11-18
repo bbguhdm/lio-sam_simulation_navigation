@@ -1,0 +1,176 @@
+[0.035s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.185s] -- The CXX compiler identification is GNU 11.4.0
+[0.201s] -- Detecting C compiler ABI info
+[0.303s] -- Detecting C compiler ABI info - done
+[0.314s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.315s] -- Detecting C compile features
+[0.315s] -- Detecting C compile features - done
+[0.320s] -- Detecting CXX compiler ABI info
+[0.422s] -- Detecting CXX compiler ABI info - done
+[0.434s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.434s] -- Detecting CXX compile features
+[0.435s] -- Detecting CXX compile features - done
+[0.439s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.654s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.723s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.726s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.730s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.737s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.746s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.781s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.782s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.799s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.803s] -- Looking for pthread.h
+[0.907s] -- Looking for pthread.h - found
+[0.908s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.012s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.013s] -- Found Threads: TRUE  
+[1.144s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.212s] -- Found pcl_conversions: 2.4.0 (/opt/ros/humble/share/pcl_conversions/cmake)
+[1.294s] -- Checking for module 'eigen3'
+[1.309s] --   Found eigen3, version 3.4.0
+[1.345s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.345s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.356s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[1.366s] -- Checking for module 'flann'
+[1.381s] --   Found flann, version 1.9.1
+[1.425s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.425s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.445s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[1.448s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[1.621s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[1.621s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[1.627s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[1.648s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[1.686s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[1.704s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[1.797s] -- Found X11: /usr/include   
+[1.798s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[1.898s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[1.898s] -- Looking for gethostbyname
+[1.999s] -- Looking for gethostbyname - found
+[1.999s] -- Looking for connect
+[2.095s] -- Looking for connect - found
+[2.095s] -- Looking for remove
+[2.186s] -- Looking for remove - found
+[2.187s] -- Looking for shmat
+[2.280s] -- Looking for shmat - found
+[2.280s] -- Looking for IceConnectionNumber in ICE
+[2.372s] -- Looking for IceConnectionNumber in ICE - found
+[2.528s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[2.533s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[2.539s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[2.542s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[2.567s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[2.575s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[2.582s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[2.589s] -- Found utf8cpp: /usr/include/utf8cpp  
+[2.674s] -- Checking for module 'libusb-1.0'
+[2.689s] --   Found libusb-1.0, version 1.0.25
+[2.731s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[2.731s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[2.731s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.792s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[2.792s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.792s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[2.885s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.891s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[2.896s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[2.979s] -- Found Qhull version 8.0.2
+[3.067s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[3.150s] -- looking for PCL_COMMON
+[3.151s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[3.151s] -- looking for PCL_KDTREE
+[3.152s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[3.152s] -- looking for PCL_OCTREE
+[3.152s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[3.152s] -- looking for PCL_SEARCH
+[3.153s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[3.153s] -- looking for PCL_SAMPLE_CONSENSUS
+[3.153s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[3.153s] -- looking for PCL_FILTERS
+[3.153s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[3.154s] -- looking for PCL_2D
+[3.154s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[3.154s] -- looking for PCL_GEOMETRY
+[3.154s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[3.154s] -- looking for PCL_IO
+[3.154s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[3.155s] -- looking for PCL_FEATURES
+[3.155s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[3.155s] -- looking for PCL_ML
+[3.155s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[3.155s] -- looking for PCL_SEGMENTATION
+[3.155s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[3.155s] -- looking for PCL_VISUALIZATION
+[3.156s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[3.156s] -- looking for PCL_SURFACE
+[3.156s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[3.156s] -- looking for PCL_REGISTRATION
+[3.157s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[3.157s] -- looking for PCL_KEYPOINTS
+[3.158s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[3.158s] -- looking for PCL_TRACKING
+[3.158s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[3.158s] -- looking for PCL_RECOGNITION
+[3.158s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[3.159s] -- looking for PCL_STEREO
+[3.159s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[3.159s] -- looking for PCL_APPS
+[3.159s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[3.160s] -- looking for PCL_IN_HAND_SCANNER
+[3.160s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[3.160s] -- looking for PCL_MODELER
+[3.160s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[3.160s] -- looking for PCL_POINT_CLOUD_EDITOR
+[3.161s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[3.161s] -- looking for PCL_OUTOFCORE
+[3.161s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[3.161s] -- looking for PCL_PEOPLE
+[3.161s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[3.162s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[3.194s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.266s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.266s] -- Configured cppcheck include dirs: 
+[3.266s] -- Configured cppcheck exclude dirs and/or files: 
+[3.267s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.269s] -- Added test 'lint_cmake' to check CMake code style
+[3.270s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.276s] -- Added test 'uncrustify' to check C / C++ code style
+[3.276s] -- Configured uncrustify additional arguments: 
+[3.277s] -- Added test 'xmllint' to check XML markup files
+[3.277s] -- Configuring done
+[3.295s] -- Generating done
+[3.296s] -- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser
+[3.307s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
+[3.309s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser -- -j24 -l24
+[3.380s] [ 50%] [32mBuilding CXX object CMakeFiles/point_laser.dir/src/point_laser.cpp.o[0m
+[5.796s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_laser.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+[5.796s]    43 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+[5.796s]       |                      [01;35m[K^[m[K
+[5.796s]       |                      [31m[K-[m[K
+[9.242s] [100%] [32m[1mLinking CXX executable point_laser[0m
+[9.646s] [100%] Built target point_laser
+[9.663s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser -- -j24 -l24
+[9.716s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser
+[9.719s] -- Install configuration: ""
+[9.719s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/lib/point_laser/point_laser
+[9.721s] -- Set runtime path of "/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/lib/point_laser/point_laser" to ""
+[9.721s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/package_run_dependencies/point_laser
+[9.721s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/parent_prefix_path/point_laser
+[9.721s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/ament_prefix_path.sh
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/ament_prefix_path.dsv
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/path.sh
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/environment/path.dsv
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.bash
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.sh
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.zsh
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/local_setup.dsv
+[9.722s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.dsv
+[9.723s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/ament_index/resource_index/packages/point_laser
+[9.723s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/point_laserConfig.cmake
+[9.723s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/cmake/point_laserConfig-version.cmake
+[9.723s] -- Installing: /home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser/share/point_laser/package.xml
+[9.724s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser

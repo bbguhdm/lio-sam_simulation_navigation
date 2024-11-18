@@ -1,0 +1,123 @@
+[0.037s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24
+[0.071s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.325s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.328s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.338s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.352s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.362s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.391s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.391s] -- Found rmw_cyclonedds_cpp: 1.3.4 (/opt/ros/humble/share/rmw_cyclonedds_cpp/cmake)
+[0.405s] -- Using RMW implementation 'rmw_cyclonedds_cpp' as default
+[0.622s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.641s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[0.950s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[0.955s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[0.955s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.043s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.048s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.052s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.133s] -- Found Qhull version 8.0.2
+[1.219s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.300s] -- looking for PCL_COMMON
+[1.301s] -- looking for PCL_KDTREE
+[1.301s] -- looking for PCL_OCTREE
+[1.301s] -- looking for PCL_SEARCH
+[1.301s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.301s] -- looking for PCL_FILTERS
+[1.302s] -- looking for PCL_2D
+[1.302s] -- looking for PCL_GEOMETRY
+[1.302s] -- looking for PCL_IO
+[1.302s] -- looking for PCL_FEATURES
+[1.302s] -- looking for PCL_ML
+[1.302s] -- looking for PCL_SEGMENTATION
+[1.303s] -- looking for PCL_VISUALIZATION
+[1.303s] -- looking for PCL_SURFACE
+[1.303s] -- looking for PCL_REGISTRATION
+[1.303s] -- looking for PCL_KEYPOINTS
+[1.303s] -- looking for PCL_TRACKING
+[1.303s] -- looking for PCL_RECOGNITION
+[1.303s] -- looking for PCL_STEREO
+[1.304s] -- looking for PCL_APPS
+[1.304s] -- looking for PCL_IN_HAND_SCANNER
+[1.304s] -- looking for PCL_MODELER
+[1.304s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.304s] -- looking for PCL_OUTOFCORE
+[1.305s] -- looking for PCL_PEOPLE
+[1.337s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.345s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.345s] -- Configured cppcheck include dirs: 
+[1.345s] -- Configured cppcheck exclude dirs and/or files: 
+[1.349s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.349s] -- Configured cpplint exclude dirs and/or files: 
+[1.350s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.351s] -- Added test 'lint_cmake' to check CMake code style
+[1.351s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.352s] -- Added test 'xmllint' to check XML markup files
+[1.352s] -- Configuring done
+[1.359s] -- Generating done
+[1.361s] -- Build files have been written to: /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup
+[1.403s] [ 50%] [32mBuilding CXX object CMakeFiles/point_deal.dir/src/point_deal.cpp.o[0m
+[3.817s] In file included from [01m[K/usr/include/eigen3/Eigen/Core:22[m[K,
+[3.817s]                  from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+[3.817s]                  from [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:41[m[K,
+[3.817s]                  from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+[3.817s]                  from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[3.817s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;31m[Kerror: [m[Kattribute ignored in declaration of ‘[01m[Kstruct LivoxPointXYZITL[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Werror=attributes]8;;[m[K]
+[3.818s]    40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;31m[Kalignas[m[K(n)
+[3.818s]       |                                      [01;31m[K^~~~~~~[m[K
+[3.818s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+[3.818s]   153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+[3.818s]       |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.818s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:18:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+[3.818s]    18 | } [01;36m[KEIGEN_ALIGN16[m[K;
+[3.819s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.819s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;36m[Knote: [m[Kattribute for ‘[01m[Kstruct LivoxPointXYZITL[m[K’ must follow the ‘[01m[Kstruct[m[K’ keyword
+[3.819s]    40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;36m[Kalignas[m[K(n)
+[3.819s]       |                                      [01;36m[K^~~~~~~[m[K
+[3.820s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+[3.820s]   153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+[3.820s]       |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.820s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:18:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+[3.820s]    18 | } [01;36m[KEIGEN_ALIGN16[m[K;
+[3.820s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.820s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;31m[Kerror: [m[Kattribute ignored in declaration of ‘[01m[Kstruct OusterPointXYZIRT[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Werror=attributes]8;;[m[K]
+[3.821s]    40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;31m[Kalignas[m[K(n)
+[3.821s]       |                                      [01;31m[K^~~~~~~[m[K
+[3.821s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+[3.821s]   153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+[3.821s]       |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.821s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:33:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+[3.821s]    33 | } [01;36m[KEIGEN_ALIGN16[m[K;
+[3.822s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.822s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;36m[Knote: [m[Kattribute for ‘[01m[Kstruct OusterPointXYZIRT[m[K’ must follow the ‘[01m[Kstruct[m[K’ keyword
+[3.822s]    40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;36m[Kalignas[m[K(n)
+[3.822s]       |                                      [01;36m[K^~~~~~~[m[K
+[3.822s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+[3.822s]   153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+[3.823s]       |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.823s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:33:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+[3.823s]    33 | } [01;36m[KEIGEN_ALIGN16[m[K;
+[3.823s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.824s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;31m[Kerror: [m[Kattribute ignored in declaration of ‘[01m[Kstruct VelodynePointXYZIRT[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Werror=attributes]8;;[m[K]
+[3.824s]    40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;31m[Kalignas[m[K(n)
+[3.824s]       |                                      [01;31m[K^~~~~~~[m[K
+[3.824s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+[3.824s]   153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+[3.824s]       |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.824s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:47:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+[3.825s]    47 | } [01;36m[KEIGEN_ALIGN16[m[K;
+[3.825s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[3.825s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;36m[Knote: [m[Kattribute for ‘[01m[Kstruct VelodynePointXYZIRT[m[K’ must follow the ‘[01m[Kstruct[m[K’ keyword
+[3.825s]    40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;36m[Kalignas[m[K(n)
+[3.825s]       |                                      [01;36m[K^~~~~~~[m[K
+[3.825s] [01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+[3.825s]   153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+[3.826s]       |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.826s] [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:47:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+[3.826s]    47 | } [01;36m[KEIGEN_ALIGN16[m[K;
+[3.826s]       |   [01;36m[K^~~~~~~~~~~~~[m[K
+[7.080s] cc1plus: all warnings being treated as errors
+[7.107s] gmake[2]: *** [CMakeFiles/point_deal.dir/build.make:76：CMakeFiles/point_deal.dir/src/point_deal.cpp.o] 错误 1
+[7.107s] gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/point_deal.dir/all] 错误 2
+[7.107s] gmake: *** [Makefile:146：all] 错误 2
+[7.112s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/hdm/lio-sam_simulation_car/robot_bringup/build/robot_bringup -- -j24 -l24

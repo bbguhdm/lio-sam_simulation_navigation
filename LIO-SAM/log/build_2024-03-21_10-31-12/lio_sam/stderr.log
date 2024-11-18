@@ -1,0 +1,44 @@
+In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:6[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:1[m[K:
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:[m[K In member function ‘[01m[Kbool ImageProjection::cachePointCloud(const SharedPtr&)[m[K’:
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:31:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KNode[m[K’?
+  312 |                  RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+      |                               [01;31m[K^~~~[m[K
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+  312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+[01m[K/home/hdm/LIO-SAM/src/imageProjection.cpp:312:18:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+  312 |                  [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "An error occurred: %s",currentCloudMsg.fields[i].name);
+      |                  [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/lio_sam_imageProjection.dir/build.make:76: CMakeFiles/lio_sam_imageProjection.dir/src/imageProjection.cpp.o] 中断
+gmake[1]: *** [CMakeFiles/Makefile2:628: CMakeFiles/lio_sam_imageProjection.dir/all] 中断
+gmake: *** [Makefile:146: all] 中断

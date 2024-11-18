@@ -1,0 +1,535 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:337:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  337 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:368:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  368 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  318 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+  411 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:411:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  411 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+      |                      [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:324:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  324 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_8U[m[K’
+  437 |     [01;36m[KPCL_ADD_INTENSITY_8U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:437:25:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  437 |     PCL_ADD_INTENSITY_8U[01;35m[K;[m[K
+      |                         [01;35m[K^[m[K
+      |                         [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:330:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  330 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY_32U[m[K’
+  469 |     [01;36m[KPCL_ADD_INTENSITY_32U[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:469:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  469 |     PCL_ADD_INTENSITY_32U[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:497:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  497 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:501:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  501 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:533:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  533 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:573:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  573 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:574:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  574 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:629:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  629 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:630:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  630 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:636:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  636 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:313:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+  313 |   [01;36m[KPCL_ADD_UNION_RGB[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:637:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_RGB[m[K’
+  637 |     [01;36m[KPCL_ADD_RGB[m[K;
+      |     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:741:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  741 |     [01;36m[KPCL_ADD_POINT4D[m[K; // this adds the members x,y,z
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:745:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  745 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:782:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  782 |     [01;36m[KPCL_ADD_POINT4D[m[K;    // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:786:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  786 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  867 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:871:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  871 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:883:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  883 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:887:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  887 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:924:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  924 |     [01;36m[KPCL_ADD_NORMAL4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:955:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+  955 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:956:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+  956 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:960:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  960 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1001:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1001 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1002:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1002 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1007 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1007:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1007 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1006:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1006 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1085:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1085 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1086:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1086 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1090:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1090 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1135:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1135 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1136:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1136 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1140:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1140 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1187:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1187 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1191:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1191 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1226:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1226 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1230:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1230 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1326:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1326 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1519:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1519 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1738:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1738 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1765:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1765 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1818:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1818 |     [01;36m[KPCL_ADD_POINT4D[m[K; // This adds the members x,y,z which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:266:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  266 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:280:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_NORMAL4D[m[K’
+  280 |   [01;36m[KPCL_ADD_UNION_NORMAL4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1819:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_NORMAL4D[m[K’
+ 1819 |     [01;36m[KPCL_ADD_NORMAL4D[m[K; // This adds the member normal[3] which can also be accessed using the point (which is float[4])
+      |     [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:289:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  289 |       [01;35m[K{[m[K \
+      |       [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:9:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_RGB[m[K’
+ 1824 |         [01;36m[KPCL_ADD_UNION_RGB[m[K;
+      |         [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1824:26:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1824 |         PCL_ADD_UNION_RGB[01;35m[K;[m[K
+      |                          [01;35m[K^[m[K
+      |                          [31m[K-[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1823:7:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+ 1823 |       [01;35m[K{[m[K
+      |       [01;35m[K^[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:1867:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+ 1867 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:13:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+   13 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:22[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;35m[Kwarning: [m[Kattribute ignored in declaration of ‘[01m[Kstruct LivoxPointXYZITL[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Wattributes]8;;[m[K]
+   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;35m[Kalignas[m[K(n)
+      |                                      [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+  153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:18:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+   18 | } [01;36m[KEIGEN_ALIGN16[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;36m[Knote: [m[Kattribute for ‘[01m[Kstruct LivoxPointXYZITL[m[K’ must follow the ‘[01m[Kstruct[m[K’ keyword
+   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;36m[Kalignas[m[K(n)
+      |                                      [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+  153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:18:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+   18 | } [01;36m[KEIGEN_ALIGN16[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:25:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+   25 |     [01;36m[KPCL_ADD_POINT4D[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:22[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;35m[Kwarning: [m[Kattribute ignored in declaration of ‘[01m[Kstruct OusterPointXYZIRT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Wattributes]8;;[m[K]
+   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;35m[Kalignas[m[K(n)
+      |                                      [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+  153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:33:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+   33 | } [01;36m[KEIGEN_ALIGN16[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;36m[Knote: [m[Kattribute for ‘[01m[Kstruct OusterPointXYZIRT[m[K’ must follow the ‘[01m[Kstruct[m[K’ keyword
+   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;36m[Kalignas[m[K(n)
+      |                                      [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+  153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:33:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+   33 | } [01;36m[KEIGEN_ALIGN16[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:241:12:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  241 |     struct [01;35m[K{[m[K \
+      |            [01;35m[K^[m[K
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:259:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_UNION_POINT4D[m[K’
+  259 |   [01;36m[KPCL_ADD_UNION_POINT4D[m[K \
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:42:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_POINT4D[m[K’
+   42 |     [01;36m[KPCL_ADD_POINT4D[m[K
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:318:5:[m[K [01;35m[Kwarning: [m[KISO C++ prohibits anonymous structs [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+  318 |     [01;35m[K{[m[K \
+      |     [01;35m[K^[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:43:5:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KPCL_ADD_INTENSITY[m[K’
+   43 |     [01;36m[KPCL_ADD_INTENSITY[m[K;
+      |     [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:43:22:[m[K [01;35m[Kwarning: [m[Kextra ‘[01m[K;[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wpedantic-Wpedantic]8;;[m[K]
+   43 |     PCL_ADD_INTENSITY[01;35m[K;[m[K
+      |                      [01;35m[K^[m[K
+      |                      [31m[K-[m[K
+In file included from [01m[K/usr/include/eigen3/Eigen/Core:22[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/memory.h:48[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/impl/point_types.hpp:41[m[K,
+                 from [01m[K/usr/include/pcl-1.12/pcl/point_types.h:354[m[K,
+                 from [01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:6[m[K:
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;35m[Kwarning: [m[Kattribute ignored in declaration of ‘[01m[Kstruct VelodynePointXYZIRT[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wattributes-Wattributes]8;;[m[K]
+   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;35m[Kalignas[m[K(n)
+      |                                      [01;35m[K^~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+  153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:47:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+   47 | } [01;36m[KEIGEN_ALIGN16[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:40:38:[m[K [01;36m[Knote: [m[Kattribute for ‘[01m[Kstruct VelodynePointXYZIRT[m[K’ must follow the ‘[01m[Kstruct[m[K’ keyword
+   40 |   #define EIGEN_ALIGN_TO_BOUNDARY(n) [01;36m[Kalignas[m[K(n)
+      |                                      [01;36m[K^~~~~~~[m[K
+[01m[K/usr/include/eigen3/Eigen/src/Core/util/ConfigureVectorization.h:153:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN_TO_BOUNDARY[m[K’
+  153 | #define EIGEN_ALIGN16 [01;36m[KEIGEN_ALIGN_TO_BOUNDARY[m[K(16)
+      |                       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/hdm/lio-sam_simulation_car/robot_bringup/src/point_deal.cpp:47:3:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KEIGEN_ALIGN16[m[K’
+   47 | } [01;36m[KEIGEN_ALIGN16[m[K;
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/point_deal.dir/src/point_deal.cpp.o: in function `void pcl::detail::FieldMapper<pcl::PointXYZI>::operator()<pcl::fields::x>()':
+point_deal.cpp:(.text._ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields1xEEEvv[_ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields1xEEEvv]+0xeb): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+/usr/bin/ld: CMakeFiles/point_deal.dir/src/point_deal.cpp.o: in function `void pcl::detail::FieldMapper<pcl::PointXYZI>::operator()<pcl::fields::y>()':
+point_deal.cpp:(.text._ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields1yEEEvv[_ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields1yEEEvv]+0xeb): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+/usr/bin/ld: CMakeFiles/point_deal.dir/src/point_deal.cpp.o: in function `void pcl::detail::FieldMapper<pcl::PointXYZI>::operator()<pcl::fields::z>()':
+point_deal.cpp:(.text._ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields1zEEEvv[_ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields1zEEEvv]+0xeb): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+/usr/bin/ld: CMakeFiles/point_deal.dir/src/point_deal.cpp.o: in function `void pcl::detail::FieldMapper<pcl::PointXYZI>::operator()<pcl::fields::intensity>()':
+point_deal.cpp:(.text._ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields9intensityEEEvv[_ZN3pcl6detail11FieldMapperINS_9PointXYZIEEclINS_6fields9intensityEEEvv]+0xeb): undefined reference to `pcl::console::print(pcl::console::VERBOSITY_LEVEL, char const*, ...)'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/point_deal.dir/build.make:214：point_deal] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:137：CMakeFiles/point_deal.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

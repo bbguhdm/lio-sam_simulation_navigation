@@ -1,0 +1,87 @@
+[  8%] Built target lio_sam__rosidl_generator_c
+[  8%] Built target ament_cmake_python_copy_lio_sam
+[ 10%] Built target lio_sam__cpp
+[ 23%] Built target lio_sam__rosidl_typesupport_introspection_c
+[ 27%] Built target lio_sam__rosidl_typesupport_c
+[ 36%] Built target lio_sam__rosidl_typesupport_fastrtps_c
+[ 44%] Built target lio_sam__rosidl_typesupport_fastrtps_cpp
+[ 53%] Built target lio_sam__rosidl_typesupport_cpp
+[ 61%] Built target lio_sam__rosidl_typesupport_introspection_cpp
+[ 61%] Built target lio_sam
+[ 63%] Built target lio_sam__py
+[ 68%] Built target lio_sam_imageProjection
+[35m[1mConsolidate compiler generated dependencies of target lio_sam_mapOptimization[0m
+[ 74%] Built target lio_sam__rosidl_generator_py
+[ 78%] Built target lio_sam_featureExtraction
+[ 82%] Built target lio_sam_imuPreintegration
+[ 87%] Built target lio_sam__rosidl_typesupport_fastrtps_c__pyext
+[ 95%] Built target lio_sam__rosidl_typesupport_introspection_c__pyext
+[ 95%] Built target lio_sam__rosidl_typesupport_c__pyext
+[ 97%] [32mBuilding CXX object CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o[0m
+running egg_info
+writing lio_sam.egg-info/PKG-INFO
+writing dependency_links to lio_sam.egg-info/dependency_links.txt
+writing top-level names to lio_sam.egg-info/top_level.txt
+reading manifest file 'lio_sam.egg-info/SOURCES.txt'
+writing manifest file 'lio_sam.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_lio_sam_egg
+In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:40[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_eigen/tf2_eigen/tf2_eigen.h:32:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   32 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_eigen/tf2_eigen.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+In file included from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:41[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.h:35:2:[m[K [01;35m[Kwarning: [m[K#warning This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wcpp-Wcpp]8;;[m[K]
+   35 | #[01;35m[Kwarning[m[K This header is obsolete, please include tf2_geometry_msgs/tf2_geometry_msgs.hpp instead
+      |  [01;35m[K^~~~~~~[m[K
+[01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:[m[K In member function ‘[01m[Kvoid mapOptimization::laserCloudInfoHandler(lio_sam::msg::CloudInfo_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:320:25:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator*[m[K’ (operand type is ‘[01m[K_cloud_corner_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’})
+  320 |         pcl::fromROSMsg([01;31m[K*cloud_corner[m[K,  *laserCloudCornerLast);
+      |                         [01;31m[K^~~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:19[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const std::complex<_Tp>&)[m[K’
+  392 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:392:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:320:26:[m[K [01;36m[Knote: [m[K  ‘[01m[K_cloud_corner_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  320 |         pcl::fromROSMsg(*[01;36m[Kcloud_corner[m[K,  *laserCloudCornerLast);
+      |                          [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:19[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const std::complex<_Tp>&, const _Tp&)[m[K’
+  401 |     [01;36m[Koperator[m[K*(const complex<_Tp>& __x, const _Tp& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:401:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:320:26:[m[K [01;36m[Knote: [m[K  ‘[01m[K_cloud_corner_type[m[K’ {aka ‘[01m[Ksensor_msgs::msg::PointCloud2_<std::allocator<void> >[m[K’} is not derived from ‘[01m[Kconst std::complex<_Tp>[m[K’
+  320 |         pcl::fromROSMsg(*[01;36m[Kcloud_corner[m[K,  *laserCloudCornerLast);
+      |                          [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/opencv4/opencv2/core/cvstd.inl.hpp:47[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/core.hpp:3306[m[K,
+                 from [01m[K/usr/include/opencv4/opencv2/opencv.hpp:52[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/include/lio_sam/utility.hpp:19[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:1[m[K:
+[01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> std::complex<_Tp> std::operator*(const _Tp&, const std::complex<_Tp>&)[m[K’
+  410 |     [01;36m[Koperator[m[K*(const _Tp& __x, const complex<_Tp>& __y)
+      |     [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/complex:410:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:320:26:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+  320 |         pcl::fromROSMsg(*[01;36m[Kcloud_corner[m[K,  *laserCloudCornerLast);
+      |                          [01;36m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/usr/include/gtsam/geometry/Unit3.h:23[m[K,
+                 from [01m[K/usr/include/gtsam/geometry/Rot3.h:26[m[K,
+                 from [01m[K/home/hdm/LIO-SAM/src/mapOptmization.cpp:4[m[K:
+[01m[K/usr/include/gtsam/geometry/Point2.h:47:15:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgtsam::Point2 gtsam::operator*(double, const Point2&)[m[K’
+   47 | inline Point2 [01;36m[Koperator[m[K*(double s, const Point2& p) {
+      |               [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/gtsam/geometry/Point2.h:47:15:[m[K [01;36m[Knote: [m[K  candidate expects 2 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/lio_sam_mapOptimization.dir/build.make:76：CMakeFiles/lio_sam_mapOptimization.dir/src/mapOptmization.cpp.o] 错误 1
+gmake[1]: *** [CMakeFiles/Makefile2:684：CMakeFiles/lio_sam_mapOptimization.dir/all] 错误 2
+gmake: *** [Makefile:146：all] 错误 2

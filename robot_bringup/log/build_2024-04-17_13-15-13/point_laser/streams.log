@@ -1,0 +1,14 @@
+[0.028s] Invoking command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
+[0.048s] -- Found ament_cmake_auto: 1.3.8 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.202s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[0.202s]   ament_package_xml() package name 'point_laser' in '/package.xml' does not
+[0.202s]   match current PROJECT_NAME 'robot_bringup'.  You must call project() with
+[0.203s]   the same package name before.
+[0.203s] Call Stack (most recent call first):
+[0.203s]   /opt/ros/humble/share/ament_cmake_auto/cmake/ament_auto_find_build_dependencies.cmake:42 (ament_package_xml)
+[0.203s]   CMakeLists.txt:20 (ament_auto_find_build_dependencies)
+[0.203s] 
+[0.203s] [0m
+[0.203s] -- Configuring incomplete, errors occurred!
+[0.204s] See also "/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser/CMakeFiles/CMakeOutput.log".
+[0.207s] Invoked command in '/home/hdm/lio-sam_simulation_car/robot_bringup/build/point_laser' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/hdm/lio-sam_simulation_car/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/hdm/lio-sam_simulation_car/robot_bringup/install/point_laser
