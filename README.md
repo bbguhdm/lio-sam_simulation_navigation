@@ -14,7 +14,7 @@
 
 1. 克隆
 
-git clone https://gitee.com/dedm/lio-sam_simulation_navigation.git
+git clone https://github.com/bbguhdm/lio-sam_simulation_navigation.git
 
 2. 编译
 
