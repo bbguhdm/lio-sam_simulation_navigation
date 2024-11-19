@@ -14,12 +14,18 @@
 
 1. 克隆
 
+```
 git clone https://github.com/bbguhdm/lio-sam_simulation_navigation.git
+```
 
 2. 编译
 
-colcon build 
+```
+colcon build
+``` 
 
 3. 运行
 
+```
 ./nav.sh
+```
